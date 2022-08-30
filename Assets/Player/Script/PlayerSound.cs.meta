@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ea1729a2547d22d499249467c90dcf60
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scoopThrownSound: {fileID: 8300000, guid: 0b613027d3b39214cbd02556d1a30ca6, type: 3}
+  - gotHitSound: {fileID: 8300000, guid: 46b471b7f0973a54f9d6f31a64d51601, type: 3}
+  - movingSound: {fileID: 8300000, guid: 95b18086eb244854dbb1710341ba50b4, type: 3}
+  - gotScoopSound: {fileID: 8300000, guid: 9918e186fd77bdf46a9d7a457444b3f4, type: 3}
+  - turnSound: {fileID: 8300000, guid: 2a7cc130ee2022d4d8964ede77a0cd47, type: 3}
+  - hitSuccessSound: {fileID: 8300000, guid: 4e90d09e2d118044f8ff730aeb3facef, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
