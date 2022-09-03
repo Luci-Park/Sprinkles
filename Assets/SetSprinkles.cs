@@ -11,6 +11,7 @@ public class SetSprinkles : MonoBehaviour
     private void Start()
     {
         PlaceSprinkles();
+        StaticBatchingUtility.Combine(gameObject);
     }
 
     void PlaceSprinkles()
