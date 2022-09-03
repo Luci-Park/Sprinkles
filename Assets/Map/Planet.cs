@@ -23,6 +23,7 @@ public class Planet : MonoBehaviour
 
     public void Attract(Transform targetTransform, bool isStatic = false)
     {
+        
         Vector3 gravityUp = CheckDirection(targetTransform);
         Vector3 localUp = targetTransform.up;
         Quaternion targetRotation = Quaternion.FromToRotation(localUp, gravityUp) * targetTransform.rotation;

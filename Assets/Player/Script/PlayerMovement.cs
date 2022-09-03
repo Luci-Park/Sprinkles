@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviourPun
     void Update()
     {
         if (!doMove) return;
-        Planet.instance.Attract(transform);
+        //Planet.instance.Attract(transform);
         Move();
         Rotate();
         if (OnDest())

@@ -26,7 +26,7 @@ public class Scoop : MonoBehaviourPun
 
     private void FixedUpdate()
     {
-        Planet.instance.Attract(transform);
+       // Planet.instance.Attract(transform);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -66,6 +66,7 @@ public class Scoop : MonoBehaviourPun
 
     public Scoop SetStartTileAndDir(Tile beforeTile, Tile currentTile, Direction dir)
     {
+        Planet.instance.Attract(transform);
         this.currentTile = currentTile;
         destinationTile = currentTile.GetNextDest(beforeTile, dir);
         return this;
