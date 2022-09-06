@@ -11,8 +11,7 @@ public class Tile : MonoBehaviour
     float colorChangeSmooth = 0.001f;
     float colorChangeDur = 0.01f;
 
-    private Tile upTile, leftTile, rightTile, downTile;
-    List<Tile> adjacentTiles = new List<Tile>();
+    public List<Tile> adjacentTiles = new List<Tile>();
 
     Vector3[] adjacentTilePositions = new Vector3[9];
     float tileAdjacentDistance = 0.03f;
@@ -83,67 +82,23 @@ public class Tile : MonoBehaviour
     
     public Tile GetNextDest(Tile beforeTile, Direction moveDirection)
     {
-        if(upTile == beforeTile)
-        {
-            switch (moveDirection)
-            {
-                case Direction.up:
-                    return downTile;
-                case Direction.down:
-                    return upTile;
-                case Direction.left:
-                    return rightTile;
-                case Direction.right:
-                    return leftTile;
-            }
-        }
-        else if(leftTile == beforeTile)
-        {
 
-            switch (moveDirection)
+        Direction currentDirection = Direction.down;
+        if (beforeTile != this)
+        {
+            for (Direction dir = Direction.up; dir <= Direction.right; ++dir)
             {
-                case Direction.up:
-                    return rightTile;
-                case Direction.down:
-                    return leftTile;
-                case Direction.left:
-                    return upTile;
-                case Direction.right:
-                    return downTile;
+                if(adjacentTiles[(int)dir] == beforeTile)
+                {
+                    currentDirection = dir;
+                    break;
+                }
             }
         }
-        else if(downTile == beforeTile || this == beforeTile)
-        {
 
-            switch (moveDirection)
-            {
-                case Direction.up:
-                    return upTile;
-                case Direction.down:
-                    return downTile;
-                case Direction.left:
-                    return leftTile;
-                case Direction.right:
-                    return rightTile;
-            }
-        }
-        else if( rightTile == beforeTile)
-        {
-            switch (moveDirection)
-            {
-                case Direction.up:
-                    return leftTile;
-                case Direction.down:
-                    return rightTile;
-                case Direction.left:
-                    return downTile;
-                case Direction.right:
-                    return upTile;
-            }
-        }
-        return null;
+        Direction nextDirection = DirectionFunctions.GetRelativeDirection(currentDirection, moveDirection);
+        return adjacentTiles[(int)nextDirection];
     }
-
     //---------------------------------------------
     #endregion
     //---------------------------------------------
@@ -158,66 +113,16 @@ public class Tile : MonoBehaviour
     {
         rend = GetComponent<Renderer>();
         SetPoints();
-        Set4DirTiles();
         GetListOfAdjacentTiles();
-    }
-
-    //---------------------------------------------
-
-    public void SetTileInfo(TileInfo info)
-    {
-        if(info.tileNum != transform.GetSiblingIndex())
-        {
-            Debug.LogError("wrong info");
-        }
-        Transform parent = Planet.instance.transform;
-        upTile = parent.GetChild(info.upTile).GetComponent<Tile>();
-        downTile = parent.GetChild(info.downTile).GetComponent<Tile>();
-        leftTile = parent.GetChild(info.leftTile).GetComponent<Tile>();
-        rightTile = parent.GetChild(info.rightTile).GetComponent<Tile>();
-
-        foreach(int tile in info.adjacentTiles)
-        {
-            adjacentTiles.Add(parent.GetChild(tile).GetComponent<Tile>());
-        }
-    }
-
-    //---------------------------------------------
-
-    public TileInfo GetTileInfo()
-    {
-        SetTileInfo();
-        TileInfo info = new TileInfo();
-        info.tileNum = transform.GetSiblingIndex();
-        info.upTile = upTile.transform.GetSiblingIndex();
-        info.downTile = downTile.transform.GetSiblingIndex();
-        info.leftTile = leftTile.transform.GetSiblingIndex();
-        info.rightTile = rightTile.transform.GetSiblingIndex();
-
-        info.adjacentTiles = new int[adjacentTiles.Count];
-        for(int i = 0; i< adjacentTiles.Count; i++)
-        {
-            info.adjacentTiles[i] = adjacentTiles[i].transform.GetSiblingIndex();
-        }
-        return info;
     }
 
     //---------------------------------------------
     void GetListOfAdjacentTiles()
     {
-        GetAdjecentTilesAtPoint(Direction.downLeft);
-        GetAdjecentTilesAtPoint(Direction.downRight);
-        GetAdjecentTilesAtPoint(Direction.upLeft);
-        GetAdjecentTilesAtPoint(Direction.upRight);
-    }
-
-    //---------------------------------------------
-    void Set4DirTiles()
-    {
-        upTile = GetTileInDirection(Direction.up);
-        downTile = GetTileInDirection(Direction.down);
-        leftTile = GetTileInDirection(Direction.left);
-        rightTile = GetTileInDirection(Direction.right);
+        for (Direction dir = Direction.middle; dir < Direction.none; ++dir)
+        {
+            GetAdjecentTilesAtPoint(dir);
+        }
     }
 
     //---------------------------------------------
@@ -228,7 +133,7 @@ public class Tile : MonoBehaviour
         Collider[] hitColliders = Physics.OverlapSphere(adjacentTilePositions[(int)direction], tileAdjacentDistance);
         foreach(Collider coll in hitColliders)
         {
-            if(coll.GetComponent<Tile>() != null && coll != GetComponent<Collider>())
+            if(coll != GetComponent<Collider>() && coll.GetComponent<Tile>() != null)
             {
                 result = coll.GetComponent<Tile>();
                 break;
@@ -241,17 +146,18 @@ public class Tile : MonoBehaviour
 
     void GetAdjecentTilesAtPoint(Direction direction)
     {
+        if(direction == Direction.middle)
+        {
+            adjacentTiles.Add(this);
+            return;
+        }
         Collider[] hitColliders = Physics.OverlapSphere(adjacentTilePositions[(int)direction], tileAdjacentDistance);
         foreach(Collider coll in hitColliders)
         {
-            if (coll == GetComponent<Collider>()) continue;
             Tile newTile = coll.GetComponent<Tile>();
-            if(newTile != null)
+            if(newTile != null && !adjacentTiles.Contains(newTile))
             {
-                if (!adjacentTiles.Contains(newTile))
-                {
-                    adjacentTiles.Add(newTile);
-                }
+                adjacentTiles.Add(newTile);
             }
         }
     }
@@ -304,18 +210,12 @@ public class Tile : MonoBehaviour
 
     public void PrintTileInfo()
     {
-        Set4DirTiles();
         GetListOfAdjacentTiles();
         Debug.Log("adjacent tiles to " + gameObject.name);
         foreach (Tile tile in adjacentTiles)
         {
             Debug.Log(tile.name);
         }
-
-        Debug.Log("up: " + upTile.name);
-        Debug.Log("left: " + leftTile.name);
-        Debug.Log("right: " + rightTile.name);
-        Debug.Log("down: " + downTile.name);
     }
 
     //---------------------------------------------
@@ -397,6 +297,8 @@ public class Tile : MonoBehaviour
     //---------------------------------------------
     #endregion
     //---------------------------------------------
+
+
 
     //---------------------------------------------
     #region MonoBehavior

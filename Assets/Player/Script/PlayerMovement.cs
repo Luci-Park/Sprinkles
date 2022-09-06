@@ -200,7 +200,7 @@ public class PlayerMovement : MonoBehaviourPun
         Tile temp = destinationTile.GetNextDest(currentTile, input);
         if (temp == null)
         {
-            Debug.LogError("no nextTile");
+            Debug.LogError(currentTile + " " + input);
             doMove = false;
         }
 
