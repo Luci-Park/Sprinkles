@@ -12,7 +12,7 @@ public class PreScoop : MonoBehaviour
     public void Place(int tileNum)
     {
         tileNumber = tileNum;
-        Vector3 pos = Planet.instance.GetTile(tileNum).GetMidPoint();
+        Vector3 pos = Planet.instance.GetTile(tileNum).GetTilePoint();
         transform.position = pos;
         Planet.instance.Attract(transform, true);
     }

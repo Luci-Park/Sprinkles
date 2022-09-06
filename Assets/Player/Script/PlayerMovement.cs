@@ -45,7 +45,6 @@ public class PlayerMovement : MonoBehaviourPun
     void Update()
     {
         if (!doMove) return;
-        //Planet.instance.Attract(transform);
         Move();
         Rotate();
         if (OnDest())
@@ -79,7 +78,7 @@ public class PlayerMovement : MonoBehaviourPun
     {
 
         SetCurrentTile(startTile);
-        transform.position = startTile.GetMidPoint();
+        transform.position = startTile.GetTilePoint();
         Planet.instance.Attract(transform, true);
         SetDestinationTile(startTile.GetNextDest(startTile, Direction.up));
         LookForward();
@@ -151,14 +150,14 @@ public class PlayerMovement : MonoBehaviourPun
 
     void Move()
     {
-        transform.position = Vector3.MoveTowards(transform.position, destinationTile.GetMidPoint(), moveSpeed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, destinationTile.GetTilePoint(), moveSpeed * Time.deltaTime);
     }
 
     //---------------------------------------------
 
     bool OnDest()
     {
-        if (Vector3.Distance(destinationTile.GetMidPoint(), transform.position) <= Tile.closeAdjacency)
+        if (Vector3.Distance(destinationTile.GetTilePoint(), transform.position) <= Tile.closeAdjacency)
         {
             return true;
         }
@@ -169,9 +168,9 @@ public class PlayerMovement : MonoBehaviourPun
 
     void Rotate()
     {
-        if (destinationTile.GetMidPoint() - transform.position != Vector3.zero)
+        if (destinationTile.GetTilePoint() - transform.position != Vector3.zero)
         {
-            Quaternion targetRotation = Quaternion.LookRotation(destinationTile.GetMidPoint() - transform.position, transform.up);
+            Quaternion targetRotation = Quaternion.LookRotation(destinationTile.GetTilePoint() - transform.position, transform.up);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotSpeed * Time.deltaTime);
         }
     }
@@ -180,7 +179,7 @@ public class PlayerMovement : MonoBehaviourPun
 
     void LookForward()
     {
-        Quaternion targetRotation = Quaternion.LookRotation(destinationTile.GetMidPoint() - transform.position, transform.up);
+        Quaternion targetRotation = Quaternion.LookRotation(destinationTile.GetTilePoint() - transform.position, transform.up);
         transform.rotation = targetRotation;
     }
     

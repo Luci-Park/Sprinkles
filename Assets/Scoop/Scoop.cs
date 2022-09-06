@@ -51,7 +51,7 @@ public class Scoop : MonoBehaviourPun
 
     void Move()
     {
-        transform.position = Vector3.MoveTowards(transform.position, destinationTile.GetMidPoint(), moveSpeed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, destinationTile.GetTilePoint(), moveSpeed * Time.deltaTime);
     }
     public Scoop SetParent(Transform parent)
     {
@@ -80,7 +80,7 @@ public class Scoop : MonoBehaviourPun
     }
     bool OnDest()
     {
-        if (Vector3.Distance(destinationTile.GetMidPoint(), transform.position) <= Tile.closeAdjacency)
+        if (Vector3.Distance(destinationTile.GetTilePoint(), transform.position) <= Tile.closeAdjacency)
         {
             return true;
         }

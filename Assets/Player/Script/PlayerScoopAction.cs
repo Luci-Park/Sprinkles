@@ -105,7 +105,7 @@ public class PlayerScoopAction : MonoBehaviourPun
         Tile currentTile = player.GetMovement().GetCurrentTile();
         Tile destinationTile = player.GetMovement().GetDestinationTile();
 
-        Scoop scoop = PhotonNetwork.Instantiate(scoopPrefab.name, destinationTile.GetMidPoint(), Quaternion.identity).GetComponent<Scoop>();
+        Scoop scoop = PhotonNetwork.Instantiate(scoopPrefab.name, destinationTile.GetTilePoint(), Quaternion.identity).GetComponent<Scoop>();
         scoop.SetParent(scoopParent).SetTeam(player.myTeam).SetStartTileAndDir(currentTile, destinationTile, scoopInput.input);
         //scoop.StartMove();
         scoopInput.InputReset();

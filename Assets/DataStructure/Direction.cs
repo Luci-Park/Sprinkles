@@ -22,7 +22,6 @@ public static class DirectionFunctions{
         {
             directions = RightBase;
         }
-        UnityEngine.Debug.Log(currentDirection + " " + NextDirection + " " + directions[(int)NextDirection]);
         return directions[(int)NextDirection];
 
     }

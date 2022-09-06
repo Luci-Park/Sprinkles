@@ -70,7 +70,7 @@ public class Tile : MonoBehaviour
     #region Tile Info Get Functions
     //---------------------------------------------
 
-    public Vector3 GetMidPoint()
+    public Vector3 GetTilePoint()
     {
         if(adjacentTilePositions[(int)Direction.middle] == null)
         {
