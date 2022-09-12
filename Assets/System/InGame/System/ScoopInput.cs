@@ -15,11 +15,11 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
     [SerializeField] GameObject rightFeedback;
     [SerializeField] GameObject upFeedback;
     [SerializeField] GameObject downFeedback;
+    [SerializeField] RectTransform joystickTransform;
 
     public Direction input { get { return m_input; } }
 
     Direction m_input = Direction.none;
-    RectTransform joystickTransform;
     Vector2 localDefaultPos;
     Vector2 worldSpaceDefaultPos;
     float xymaxDiff = 0.0001f;
@@ -73,7 +73,6 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
     //---------------------------------------------
     private void Awake()
     {
-        joystickTransform = GetComponent<RectTransform>();
         localDefaultPos = joystickTransform.localPosition;
         worldSpaceDefaultPos = joystickTransform.position;
     }
@@ -84,6 +83,7 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
     {
         Setup();
     }
+
     //---------------------------------------------
     #endregion
     //---------------------------------------------

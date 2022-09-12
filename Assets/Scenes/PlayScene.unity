@@ -141,7 +141,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1539368
 Transform:
@@ -170,6 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1539370
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -252,7 +253,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2815952
 Transform:
@@ -281,6 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2815954
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -457,7 +459,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &12212636
 Transform:
@@ -486,6 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &12212638
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -568,7 +571,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &12604258
 Transform:
@@ -597,6 +600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &12604260
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -755,7 +759,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &15941953
 Transform:
@@ -784,6 +788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &15941955
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -866,7 +871,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &16486175
 Transform:
@@ -895,6 +900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &16486177
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -977,7 +983,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &21184300
 Transform:
@@ -1006,6 +1012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &21184302
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1088,7 +1095,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &22538248
 Transform:
@@ -1117,6 +1124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &22538250
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1199,7 +1207,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &25905654
 Transform:
@@ -1228,6 +1236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &25905656
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1386,7 +1395,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &33080169
 Transform:
@@ -1415,6 +1424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &33080171
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1497,7 +1507,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &33635929
 Transform:
@@ -1526,6 +1536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &33635931
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1608,7 +1619,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &37565965
 Transform:
@@ -1637,6 +1648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &37565967
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1719,7 +1731,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &39569998
 Transform:
@@ -1748,6 +1760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &39570000
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1830,7 +1843,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &45742357
 Transform:
@@ -1859,6 +1872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &45742359
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1941,7 +1955,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &50362370
 Transform:
@@ -1970,6 +1984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &50362372
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2134,7 +2149,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &77213675
 Transform:
@@ -2163,6 +2178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &77213677
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2245,7 +2261,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &83426553
 Transform:
@@ -2274,6 +2290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &83426555
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2356,7 +2373,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &98822538
 Transform:
@@ -2385,6 +2402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &98822540
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2467,7 +2485,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &100834879
 Transform:
@@ -2496,6 +2514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &100834881
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2578,7 +2597,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &106200387
 Transform:
@@ -2607,6 +2626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &106200389
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2689,7 +2709,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &116811560
 Transform:
@@ -2718,6 +2738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &116811562
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2800,7 +2821,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &117343198
 Transform:
@@ -2829,6 +2850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &117343200
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2911,7 +2933,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &123531343
 Transform:
@@ -2940,6 +2962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &123531345
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3022,7 +3045,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &123985733
 Transform:
@@ -3051,6 +3074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &123985735
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3133,7 +3157,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &124362894
 Transform:
@@ -3162,6 +3186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &124362896
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3244,7 +3269,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &132176870
 Transform:
@@ -3273,6 +3298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &132176872
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3355,7 +3381,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &134757749
 Transform:
@@ -3384,6 +3410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &134757751
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3466,7 +3493,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &142312019
 Transform:
@@ -3495,6 +3522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &142312021
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3735,7 +3763,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &153480029
 Transform:
@@ -3764,6 +3792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &153480031
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3846,7 +3875,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &153581405
 Transform:
@@ -3875,6 +3904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &153581407
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3957,7 +3987,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &153875650
 Transform:
@@ -3986,6 +4016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &153875652
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4068,7 +4099,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &154352617
 Transform:
@@ -4097,6 +4128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &154352619
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4179,7 +4211,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &161608015
 Transform:
@@ -4208,6 +4240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &161608017
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4290,7 +4323,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &163438985
 Transform:
@@ -4319,6 +4352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &163438987
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4473,7 +4507,7 @@ GameObject:
   - component: {fileID: 166204990}
   - component: {fileID: 166204989}
   m_Layer: 5
-  m_Name: FeddBack - right
+  m_Name: FeedBack - right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4555,7 +4589,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &171596730
 Transform:
@@ -4584,6 +4618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &171596732
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4666,7 +4701,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &173608246
 Transform:
@@ -4695,6 +4730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &173608248
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4877,7 +4913,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &180231038
 Transform:
@@ -4906,6 +4942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &180231040
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5068,7 +5105,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &190224969
 Transform:
@@ -5097,6 +5134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &190224971
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5179,7 +5217,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &195611132
 Transform:
@@ -5208,6 +5246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &195611134
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5290,7 +5329,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &199574606
 Transform:
@@ -5319,6 +5358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &199574608
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5401,7 +5441,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &199670171
 Transform:
@@ -5430,6 +5470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &199670173
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5512,7 +5553,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &200575245
 Transform:
@@ -5541,6 +5582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &200575247
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5623,7 +5665,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &207022178
 Transform:
@@ -5652,6 +5694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &207022180
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5734,7 +5777,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &209339602
 Transform:
@@ -5763,6 +5806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &209339604
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5845,7 +5889,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &222921813
 Transform:
@@ -5874,6 +5918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &222921815
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5956,7 +6001,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &228917585
 Transform:
@@ -5985,6 +6030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &228917587
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6067,7 +6113,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &229032390
 Transform:
@@ -6096,6 +6142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &229032392
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6178,7 +6225,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &230055290
 Transform:
@@ -6207,6 +6254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &230055292
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6289,7 +6337,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &233699884
 Transform:
@@ -6318,6 +6366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &233699886
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6400,7 +6449,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &233929827
 Transform:
@@ -6429,6 +6478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &233929829
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6511,7 +6561,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &234409953
 Transform:
@@ -6540,6 +6590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &234409955
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6622,7 +6673,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &234833066
 Transform:
@@ -6651,6 +6702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &234833068
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6862,7 +6914,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &267598866
 Transform:
@@ -6891,6 +6943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &267598868
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6973,7 +7026,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &268947224
 Transform:
@@ -7002,6 +7055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &268947226
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7151,7 +7205,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &277412592
 Transform:
@@ -7180,6 +7234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &277412594
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7262,7 +7317,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &283343934
 Transform:
@@ -7291,6 +7346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &283343936
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7373,7 +7429,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &284951529
 Transform:
@@ -7402,6 +7458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &284951531
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7484,7 +7541,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &285478625
 Transform:
@@ -7513,6 +7570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &285478627
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7595,7 +7653,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &288851163
 Transform:
@@ -7624,6 +7682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &288851165
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7706,7 +7765,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &291748807
 Transform:
@@ -7735,6 +7794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &291748809
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7817,7 +7877,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &294634121
 Transform:
@@ -7846,6 +7906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &294634123
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7928,7 +7989,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &296056705
 Transform:
@@ -7957,6 +8018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &296056707
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8031,6 +8093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 298225964}
   - component: {fileID: 298225966}
+  - component: {fileID: 298225967}
   m_Layer: 5
   m_Name: ScoopJoyStick
   m_TagString: Untagged
@@ -8075,6 +8138,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298225963}
   m_CullTransparentMesh: 0
+--- !u!114 &298225967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298225963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f111a2507c683f44b7087313783927c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  left: {fileID: 1554427906}
+  right: {fileID: 992429514}
+  up: {fileID: 845052198}
+  down: {fileID: 1917036955}
+  leftFeedback: {fileID: 1960292379}
+  rightFeedback: {fileID: 166204987}
+  upFeedback: {fileID: 2135810450}
+  downFeedback: {fileID: 454618395}
+  joystickTransform: {fileID: 1675082647}
 --- !u!1 &302401555
 GameObject:
   m_ObjectHideFlags: 0
@@ -8093,7 +8177,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &302401556
 Transform:
@@ -8122,6 +8206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &302401558
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8204,7 +8289,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &307106468
 Transform:
@@ -8233,6 +8318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &307106470
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8315,7 +8401,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &311138857
 Transform:
@@ -8344,6 +8430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &311138859
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8426,7 +8513,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &313590043
 Transform:
@@ -8455,6 +8542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &313590045
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8537,7 +8625,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &315125029
 Transform:
@@ -8566,6 +8654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &315125031
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8648,7 +8737,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &317036805
 Transform:
@@ -8677,6 +8766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &317036807
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8835,7 +8925,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &324488979
 Transform:
@@ -8864,6 +8954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &324488981
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8946,7 +9037,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &327848421
 Transform:
@@ -8975,6 +9066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &327848423
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9057,7 +9149,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &339307335
 Transform:
@@ -9086,6 +9178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &339307337
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9168,7 +9261,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &339452292
 Transform:
@@ -9197,6 +9290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &339452294
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9279,7 +9373,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &344118174
 Transform:
@@ -9308,6 +9402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &344118176
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9390,7 +9485,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &344719493
 Transform:
@@ -9419,6 +9514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &344719495
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9501,7 +9597,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &353405779
 Transform:
@@ -9530,6 +9626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &353405781
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9660,7 +9757,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &357196770
 Transform:
@@ -9689,6 +9786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &357196772
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9864,7 +9962,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &358187703
 Transform:
@@ -9893,6 +9991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &358187705
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9975,7 +10074,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &360451182
 Transform:
@@ -10004,6 +10103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &360451184
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10086,7 +10186,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &363130586
 Transform:
@@ -10115,6 +10215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &363130588
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10197,7 +10298,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &371922919
 Transform:
@@ -10226,6 +10327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &371922921
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10308,7 +10410,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &372722885
 Transform:
@@ -10337,6 +10439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &372722887
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10419,7 +10522,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &379084048
 Transform:
@@ -10448,6 +10551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &379084050
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10530,7 +10634,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &379586440
 Transform:
@@ -10559,6 +10663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &379586442
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10641,7 +10746,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &382173993
 Transform:
@@ -10670,6 +10775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &382173995
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10828,7 +10934,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &393245867
 Transform:
@@ -10857,6 +10963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &393245869
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10939,7 +11046,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &402205251
 Transform:
@@ -10968,6 +11075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &402205253
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11050,7 +11158,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &406224241
 Transform:
@@ -11079,6 +11187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &406224243
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11161,7 +11270,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &407046434
 Transform:
@@ -11190,6 +11299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &407046436
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11272,7 +11382,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &408366783
 Transform:
@@ -11301,6 +11411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &408366785
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11383,7 +11494,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &411765192
 Transform:
@@ -11412,6 +11523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &411765194
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11494,7 +11606,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &413599810
 Transform:
@@ -11523,6 +11635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &413599812
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11605,7 +11718,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &415415165
 Transform:
@@ -11634,6 +11747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &415415167
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11716,7 +11830,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &416875448
 Transform:
@@ -11745,6 +11859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &416875450
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11827,7 +11942,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &417745543
 Transform:
@@ -11856,6 +11971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &417745545
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11938,7 +12054,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &418069096
 Transform:
@@ -11967,6 +12083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &418069098
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12049,7 +12166,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &436421962
 Transform:
@@ -12078,6 +12195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &436421964
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12160,7 +12278,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &439507694
 Transform:
@@ -12189,6 +12307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &439507696
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12271,7 +12390,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &444260358
 Transform:
@@ -12300,6 +12419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &444260360
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12382,7 +12502,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &449066656
 Transform:
@@ -12411,6 +12531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &449066658
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12493,7 +12614,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &451512194
 Transform:
@@ -12522,6 +12643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &451512196
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12604,7 +12726,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &454462127
 Transform:
@@ -12633,6 +12755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &454462129
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12791,7 +12914,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &466729171
 Transform:
@@ -12820,6 +12943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &466729173
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12902,7 +13026,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &469276456
 Transform:
@@ -12931,6 +13055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &469276458
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13013,7 +13138,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &471344210
 Transform:
@@ -13042,6 +13167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &471344212
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13124,7 +13250,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &475964898
 Transform:
@@ -13153,6 +13279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &475964900
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13311,7 +13438,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &491644031
 Transform:
@@ -13340,6 +13467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &491644033
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13422,7 +13550,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &494632106
 Transform:
@@ -13451,6 +13579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &494632108
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13533,7 +13662,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &499027214
 Transform:
@@ -13562,6 +13691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &499027216
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13644,7 +13774,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &502417573
 Transform:
@@ -13673,6 +13803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &502417575
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13755,7 +13886,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &521354251
 Transform:
@@ -13784,6 +13915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &521354253
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13866,7 +13998,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &533025468
 Transform:
@@ -13895,6 +14027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &533025470
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13977,7 +14110,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &548944714
 Transform:
@@ -14006,6 +14139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &548944716
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14088,7 +14222,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &550189144
 Transform:
@@ -14117,6 +14251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &550189146
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14199,7 +14334,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &553608324
 Transform:
@@ -14228,6 +14363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &553608326
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14310,7 +14446,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &556280441
 Transform:
@@ -14339,6 +14475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &556280443
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14421,7 +14558,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &560944799
 Transform:
@@ -14450,6 +14587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &560944801
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14532,7 +14670,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &564668448
 Transform:
@@ -14561,6 +14699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &564668450
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14728,7 +14867,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &566946527
 Transform:
@@ -14757,6 +14896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &566946529
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14839,7 +14979,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &575071906
 Transform:
@@ -14868,6 +15008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &575071908
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14950,7 +15091,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &575322704
 Transform:
@@ -14979,6 +15120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &575322706
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15061,7 +15203,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &575569971
 Transform:
@@ -15090,6 +15232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &575569973
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15172,7 +15315,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &577408997
 Transform:
@@ -15201,6 +15344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &577408999
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15340,7 +15484,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &585520849
 Transform:
@@ -15369,6 +15513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &585520851
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15451,7 +15596,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &586718345
 Transform:
@@ -15480,6 +15625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &586718347
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15562,7 +15708,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &593023560
 Transform:
@@ -15591,6 +15737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &593023562
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15673,7 +15820,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &595199854
 Transform:
@@ -15702,6 +15849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &595199856
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15784,7 +15932,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &598636067
 MonoBehaviour:
@@ -15868,7 +16016,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &613339529
 Transform:
@@ -15897,6 +16045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &613339531
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15979,7 +16128,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &622341916
 Transform:
@@ -16008,6 +16157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &622341918
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16090,7 +16240,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &627385925
 Transform:
@@ -16119,6 +16269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &627385927
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16201,7 +16352,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &640829639
 Transform:
@@ -16230,6 +16381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &640829641
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16312,7 +16464,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &648441376
 Transform:
@@ -16341,6 +16493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &648441378
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16423,7 +16576,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &655838550
 Transform:
@@ -16452,6 +16605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &655838552
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16534,7 +16688,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &665300914
 Transform:
@@ -16563,6 +16717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &665300916
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16645,7 +16800,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &666496449
 Transform:
@@ -16674,6 +16829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &666496451
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16859,7 +17015,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &679507119
 Transform:
@@ -16888,6 +17044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &679507121
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16970,7 +17127,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &681962314
 Transform:
@@ -16999,6 +17156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &681962316
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17159,7 +17317,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &685559435
 Transform:
@@ -17188,6 +17346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &685559437
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17270,7 +17429,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &685754077
 Transform:
@@ -17299,6 +17458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &685754079
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17381,7 +17541,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &698023509
 Transform:
@@ -17410,6 +17570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &698023511
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17492,7 +17653,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &700619348
 Transform:
@@ -17521,6 +17682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &700619350
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17603,7 +17765,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &702021091
 Transform:
@@ -17632,6 +17794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &702021093
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17714,7 +17877,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &704372805
 Transform:
@@ -17743,6 +17906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &704372807
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17825,7 +17989,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &704394834
 Transform:
@@ -17854,6 +18018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &704394836
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18012,7 +18177,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &723814234
 Transform:
@@ -18041,6 +18206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &723814236
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18123,7 +18289,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &724504974
 Transform:
@@ -18152,6 +18318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &724504976
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18234,7 +18401,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &725023934
 Transform:
@@ -18263,6 +18430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &725023936
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18345,7 +18513,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &726723858
 Transform:
@@ -18374,6 +18542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &726723860
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18541,7 +18710,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &739480149
 Transform:
@@ -18570,6 +18739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &739480151
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18652,7 +18822,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &749354503
 Transform:
@@ -18681,6 +18851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &749354505
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18763,7 +18934,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &759424221
 Transform:
@@ -18792,6 +18963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &759424223
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18874,7 +19046,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &761824067
 Transform:
@@ -18903,6 +19075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &761824069
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18985,7 +19158,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &761948617
 Transform:
@@ -19014,6 +19187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &761948619
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19096,7 +19270,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &768072049
 Transform:
@@ -19125,6 +19299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &768072051
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19207,7 +19382,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &769320394
 Transform:
@@ -19236,6 +19411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &769320396
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19318,7 +19494,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &771249076
 Transform:
@@ -19347,6 +19523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &771249078
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19429,7 +19606,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &774482919
 Transform:
@@ -19458,6 +19635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &774482921
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19571,7 +19749,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &781047729
 Transform:
@@ -19600,6 +19778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &781047731
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19682,7 +19861,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &783184563
 Transform:
@@ -19711,6 +19890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &783184565
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19793,7 +19973,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &784581734
 Transform:
@@ -19822,6 +20002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &784581736
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19904,7 +20085,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &784774167
 Transform:
@@ -19933,6 +20114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &784774169
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20015,7 +20197,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &788081067
 Transform:
@@ -20044,6 +20226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &788081069
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20126,7 +20309,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &788606325
 Transform:
@@ -20155,6 +20338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &788606327
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20237,7 +20421,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &789855289
 Transform:
@@ -20266,6 +20450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &789855291
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20348,7 +20533,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &790088790
 Transform:
@@ -20377,6 +20562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &790088792
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20459,7 +20645,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &790741599
 Transform:
@@ -20488,6 +20674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &790741601
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20570,7 +20757,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &796672921
 Transform:
@@ -20599,6 +20786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &796672923
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20757,7 +20945,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &803743451
 Transform:
@@ -20786,6 +20974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &803743453
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20868,7 +21057,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &804532596
 Transform:
@@ -20897,6 +21086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &804532598
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20979,7 +21169,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &805129880
 Transform:
@@ -21008,6 +21198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &805129882
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21090,7 +21281,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &812034266
 Transform:
@@ -21119,6 +21310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &812034268
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21201,7 +21393,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &818882778
 Transform:
@@ -21230,6 +21422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &818882780
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21312,7 +21505,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &820429144
 Transform:
@@ -21341,6 +21534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &820429146
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21423,7 +21617,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &828634813
 Transform:
@@ -21452,6 +21646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &828634815
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21534,7 +21729,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &832663137
 Transform:
@@ -21563,6 +21758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &832663139
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21645,7 +21841,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &837670542
 Transform:
@@ -21674,6 +21870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &837670544
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21756,7 +21953,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &841015268
 Transform:
@@ -21785,6 +21982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &841015270
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21943,7 +22141,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &859354130
 Transform:
@@ -21972,6 +22170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &859354132
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22054,7 +22253,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &864193405
 Transform:
@@ -22083,6 +22282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &864193407
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22165,7 +22365,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &865729296
 Transform:
@@ -22194,6 +22394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &865729298
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22276,7 +22477,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &866857635
 Transform:
@@ -22305,6 +22506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &866857637
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22387,7 +22589,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &866999562
 Transform:
@@ -22416,6 +22618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &866999564
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22498,7 +22701,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &868135248
 Transform:
@@ -22527,6 +22730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &868135250
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22609,7 +22813,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &876799314
 Transform:
@@ -22638,6 +22842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &876799316
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22720,7 +22925,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &897936193
 Transform:
@@ -22749,6 +22954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &897936195
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22831,7 +23037,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &914369447
 Transform:
@@ -22860,6 +23066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &914369449
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22942,7 +23149,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &914615822
 Transform:
@@ -22971,6 +23178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &914615824
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23053,7 +23261,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &916720277
 Transform:
@@ -23082,6 +23290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &916720279
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23164,7 +23373,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &918108779
 Transform:
@@ -23193,6 +23402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &918108781
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23275,7 +23485,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &919857976
 Transform:
@@ -23304,6 +23514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &919857978
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23386,7 +23597,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &920983959
 Transform:
@@ -23415,6 +23626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &920983961
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23497,7 +23709,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &923823822
 Transform:
@@ -23526,6 +23738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &923823824
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23838,7 +24051,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &958103479
 Transform:
@@ -23867,6 +24080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &958103481
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23949,7 +24163,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &958274250
 Transform:
@@ -23978,6 +24192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &958274252
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24060,7 +24275,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &978129524
 Transform:
@@ -24089,6 +24304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &978129526
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24171,7 +24387,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &990525917
 Transform:
@@ -24200,6 +24416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &990525919
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24282,7 +24499,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &992298946
 Transform:
@@ -24311,6 +24528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &992298948
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24469,7 +24687,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &993849410
 Transform:
@@ -24498,6 +24716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &993849412
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24580,7 +24799,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &994074350
 Transform:
@@ -24609,6 +24828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &994074352
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24691,7 +24911,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &997046086
 Transform:
@@ -24720,6 +24940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &997046088
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24878,7 +25099,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1004927343
 Transform:
@@ -24907,6 +25128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1004927345
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25065,7 +25287,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1008735350
 Transform:
@@ -25094,6 +25316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1008735352
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25176,7 +25399,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1010012546
 Transform:
@@ -25205,6 +25428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1010012548
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25287,7 +25511,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1014524578
 Transform:
@@ -25316,6 +25540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1014524580
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25398,7 +25623,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1024192404
 Transform:
@@ -25427,6 +25652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1024192406
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25509,7 +25735,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1028752950
 Transform:
@@ -25538,6 +25764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1028752952
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25620,7 +25847,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1029779273
 Transform:
@@ -25649,6 +25876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1029779275
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25731,7 +25959,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1038493280
 Transform:
@@ -25760,6 +25988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1038493282
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25842,7 +26071,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1044863182
 Transform:
@@ -25871,6 +26100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1044863184
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25953,7 +26183,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1045016237
 Transform:
@@ -25982,6 +26212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1045016239
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26064,7 +26295,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1045089418
 Transform:
@@ -26093,6 +26324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1045089420
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26175,7 +26407,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1051844871
 Transform:
@@ -26204,6 +26436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1051844873
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26286,7 +26519,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1064106056
 Transform:
@@ -26315,6 +26548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1064106058
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26497,7 +26731,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1077051277
 Transform:
@@ -26526,6 +26760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1077051279
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26608,7 +26843,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1077560488
 Transform:
@@ -26637,6 +26872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1077560490
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26719,7 +26955,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1082045858
 Transform:
@@ -26748,6 +26984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1082045860
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26830,7 +27067,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1086266686
 Transform:
@@ -26859,6 +27096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1086266688
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26941,7 +27179,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1103010978
 Transform:
@@ -26970,6 +27208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1103010980
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27052,7 +27291,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1106020448
 Transform:
@@ -27081,6 +27320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1106020450
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27163,7 +27403,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1106487188
 Transform:
@@ -27192,6 +27432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1106487190
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27274,7 +27515,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1110472666
 Transform:
@@ -27303,6 +27544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1110472668
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27385,7 +27627,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1119838414
 Transform:
@@ -27414,6 +27656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1119838416
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27496,7 +27739,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1120755309
 Transform:
@@ -27525,6 +27768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1120755311
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27607,7 +27851,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1127240498
 Transform:
@@ -27636,6 +27880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1127240500
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27718,7 +27963,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1130935070
 Transform:
@@ -27747,6 +27992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1130935072
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27829,7 +28075,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1131613133
 Transform:
@@ -27858,6 +28104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1131613135
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27940,7 +28187,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1139486070
 Transform:
@@ -27969,6 +28216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1139486072
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28051,7 +28299,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1149850574
 Transform:
@@ -28080,6 +28328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1149850576
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28162,7 +28411,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1149858772
 Transform:
@@ -28191,6 +28440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1149858774
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28273,7 +28523,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1149968400
 Transform:
@@ -28302,6 +28552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1149968402
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28384,7 +28635,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1161433303
 Transform:
@@ -28413,6 +28664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1161433305
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28495,7 +28747,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1161468522
 Transform:
@@ -28524,6 +28776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1161468524
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28606,7 +28859,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1164345388
 Transform:
@@ -28635,6 +28888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1164345390
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28717,7 +28971,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1166669345
 Transform:
@@ -28746,6 +29000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1166669347
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28828,7 +29083,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1172449624
 Transform:
@@ -28857,6 +29112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1172449626
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29102,7 +29358,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1182940241
 Transform:
@@ -29131,6 +29387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1182940243
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29213,7 +29470,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1185060333
 Transform:
@@ -29242,6 +29499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1185060335
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29324,7 +29582,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1199580337
 Transform:
@@ -29353,6 +29611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1199580339
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29497,7 +29756,7 @@ MonoBehaviour:
   preScoopParent: {fileID: 949847759}
   gameTimer: {fileID: 273665294}
   countDown: {fileID: 1230457588}
-  scoopInput: {fileID: 1675082650}
+  scoopInput: {fileID: 298225967}
   endCamera: {fileID: 358124383}
 --- !u!114 &1202655890
 MonoBehaviour:
@@ -29848,7 +30107,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1216571608
 Transform:
@@ -29877,6 +30136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1216571610
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29959,7 +30219,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1224432551
 Transform:
@@ -29988,6 +30248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1224432553
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30070,7 +30331,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1227908760
 Transform:
@@ -30099,6 +30360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1227908762
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30417,7 +30679,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1235890166
 Transform:
@@ -30446,6 +30708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1235890168
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30528,7 +30791,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1244182209
 Transform:
@@ -30557,6 +30820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1244182211
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30639,7 +30903,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1246817228
 Transform:
@@ -30668,6 +30932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1246817230
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30844,7 +31109,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1261712398
 Transform:
@@ -30873,6 +31138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1261712400
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30955,7 +31221,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1261915540
 Transform:
@@ -30984,6 +31250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1261915542
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31142,7 +31409,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1268112101
 Transform:
@@ -31171,6 +31438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1268112103
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31347,7 +31615,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1284555817
 Transform:
@@ -31376,6 +31644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1284555819
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31458,7 +31727,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1289879696
 Transform:
@@ -31487,6 +31756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1289879698
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31569,7 +31839,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1292903671
 Transform:
@@ -31598,6 +31868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1292903673
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31841,7 +32112,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1301751690
 Transform:
@@ -31870,6 +32141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1301751692
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31952,7 +32224,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1304342583
 Transform:
@@ -31981,6 +32253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1304342585
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32063,7 +32336,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1320164813
 Transform:
@@ -32092,6 +32365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1320164815
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32174,7 +32448,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1320699061
 Transform:
@@ -32203,6 +32477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1320699063
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32285,7 +32560,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1324863717
 Transform:
@@ -32314,6 +32589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1324863719
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32396,7 +32672,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1326809920
 Transform:
@@ -32425,6 +32701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1326809922
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32507,7 +32784,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1332715603
 Transform:
@@ -32536,6 +32813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1332715605
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32726,7 +33004,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1334403818
 Transform:
@@ -32755,6 +33033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1334403820
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32837,7 +33116,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1335247350
 Transform:
@@ -32866,6 +33145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1335247352
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32948,7 +33228,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1335812568
 Transform:
@@ -32977,6 +33257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1335812570
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33059,7 +33340,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1339719272
 Transform:
@@ -33088,6 +33369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1339719274
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33170,7 +33452,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1344472772
 Transform:
@@ -33199,6 +33481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1344472774
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33357,7 +33640,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1351922992
 Transform:
@@ -33386,6 +33669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1351922994
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33468,7 +33752,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1355285473
 Transform:
@@ -33497,6 +33781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1355285475
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33579,7 +33864,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1362514073
 Transform:
@@ -33608,6 +33893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1362514075
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33690,7 +33976,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1365689824
 Transform:
@@ -33719,6 +34005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1365689826
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33801,7 +34088,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1376046310
 Transform:
@@ -33830,6 +34117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1376046312
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33912,7 +34200,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1380775417
 Transform:
@@ -33941,6 +34229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1380775419
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34023,7 +34312,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1382462402
 Transform:
@@ -34052,6 +34341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1382462404
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34134,7 +34424,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1387979924
 Transform:
@@ -34163,6 +34453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1387979926
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34245,7 +34536,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1388095225
 Transform:
@@ -34274,6 +34565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1388095227
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34356,7 +34648,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1398331502
 Transform:
@@ -34385,6 +34677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1398331504
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34467,7 +34760,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1398847265
 Transform:
@@ -34496,6 +34789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1398847267
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34748,7 +35042,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1410573845
 Transform:
@@ -34777,6 +35071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1410573847
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34859,7 +35154,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1422049333
 Transform:
@@ -34888,6 +35183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1422049335
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34970,7 +35266,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1422166476
 Transform:
@@ -34999,6 +35295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1422166478
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35081,7 +35378,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1423893515
 Transform:
@@ -35110,6 +35407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1423893517
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35192,7 +35490,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1439175028
 Transform:
@@ -35221,6 +35519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1439175030
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35303,7 +35602,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1446051073
 Transform:
@@ -35332,6 +35631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1446051075
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35414,7 +35714,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1452131706
 Transform:
@@ -35443,6 +35743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1452131708
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35525,7 +35826,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1452487104
 Transform:
@@ -35554,6 +35855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1452487106
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35636,7 +35938,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1466845789
 Transform:
@@ -35665,6 +35967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1466845791
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35823,7 +36126,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1469827027
 Transform:
@@ -35852,6 +36155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1469827029
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35934,7 +36238,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1472197880
 Transform:
@@ -35963,6 +36267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1472197882
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36045,7 +36350,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1472621351
 Transform:
@@ -36074,6 +36379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1472621353
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36156,7 +36462,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1479202619
 Transform:
@@ -36185,6 +36491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1479202621
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36267,7 +36574,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1479544897
 Transform:
@@ -36296,6 +36603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1479544899
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36378,7 +36686,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1487569351
 Transform:
@@ -36407,6 +36715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1487569353
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36489,7 +36798,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1488194396
 Transform:
@@ -36518,6 +36827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1488194398
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36600,7 +36910,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1488599944
 Transform:
@@ -36629,6 +36939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1488599946
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36711,7 +37022,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1493695148
 Transform:
@@ -36740,6 +37051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1493695150
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36890,7 +37202,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1508151471
 Transform:
@@ -36919,6 +37231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1508151473
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37001,7 +37314,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1510226404
 Transform:
@@ -37030,6 +37343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1510226406
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37112,7 +37426,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1511929382
 Transform:
@@ -37141,6 +37455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1511929384
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37223,7 +37538,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1520940110
 Transform:
@@ -37252,6 +37567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1520940112
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37334,7 +37650,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1532753144
 Transform:
@@ -37363,6 +37679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1532753146
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37445,7 +37762,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1534680798
 Transform:
@@ -37474,6 +37791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1534680800
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37556,7 +37874,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1553333577
 Transform:
@@ -37585,6 +37903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1553333579
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37819,7 +38138,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1558406011
 Transform:
@@ -37848,6 +38167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1558406013
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37930,7 +38250,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1559605308
 Transform:
@@ -37959,6 +38279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1559605310
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38041,7 +38362,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1560033942
 Transform:
@@ -38070,6 +38391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1560033944
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38228,7 +38550,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1563471271
 Transform:
@@ -38257,6 +38579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1563471273
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38415,7 +38738,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1569445004
 Transform:
@@ -38444,6 +38767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1569445006
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38526,7 +38850,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1579384683
 Transform:
@@ -38555,6 +38879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1579384685
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38637,7 +38962,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1597560826
 Transform:
@@ -38666,6 +38991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1597560828
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38748,7 +39074,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1599654517
 Transform:
@@ -38777,6 +39103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1599654519
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38859,7 +39186,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1600696897
 Transform:
@@ -38888,6 +39215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1600696899
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38970,7 +39298,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1601257645
 Transform:
@@ -38999,6 +39327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1601257647
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39081,7 +39410,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1602795633
 Transform:
@@ -39110,6 +39439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1602795635
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39192,7 +39522,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1615263610
 Transform:
@@ -39221,6 +39551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1615263612
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39303,7 +39634,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1616645567
 Transform:
@@ -39332,6 +39663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1616645569
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39414,7 +39746,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1640871244
 Transform:
@@ -39443,6 +39775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1640871246
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39525,7 +39858,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1647292289
 Transform:
@@ -39554,6 +39887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1647292291
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39636,7 +39970,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1647842527
 Transform:
@@ -39665,6 +39999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1647842529
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39747,7 +40082,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1648698167
 Transform:
@@ -39776,6 +40111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1648698169
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39858,7 +40194,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1662664347
 Transform:
@@ -39887,6 +40223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1662664349
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39969,7 +40306,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1668294225
 Transform:
@@ -39998,6 +40335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1668294227
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40080,7 +40418,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1670882938
 Transform:
@@ -40109,6 +40447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1670882940
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40191,7 +40530,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1671178841
 Transform:
@@ -40220,6 +40559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1671178843
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40296,7 +40636,6 @@ GameObject:
   - component: {fileID: 1675082649}
   - component: {fileID: 1675082648}
   - component: {fileID: 1675082651}
-  - component: {fileID: 1675082650}
   m_Layer: 5
   m_Name: ScoopIcon
   m_TagString: Untagged
@@ -40362,26 +40701,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675082646}
   m_CullTransparentMesh: 0
---- !u!114 &1675082650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1675082646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f111a2507c683f44b7087313783927c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  left: {fileID: 1554427906}
-  right: {fileID: 992429514}
-  up: {fileID: 845052198}
-  down: {fileID: 1917036955}
-  leftFeedback: {fileID: 1960292379}
-  rightFeedback: {fileID: 166204987}
-  upFeedback: {fileID: 2135810450}
-  downFeedback: {fileID: 454618395}
 --- !u!114 &1675082651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40509,7 +40828,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1677297615
 Transform:
@@ -40538,6 +40857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1677297617
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40705,7 +41025,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1684328398
 Transform:
@@ -40734,6 +41054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1684328400
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40816,7 +41137,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1693595326
 Transform:
@@ -40845,6 +41166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1693595328
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40927,7 +41249,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1696643889
 Transform:
@@ -40956,6 +41278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1696643891
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41038,7 +41361,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1706896505
 Transform:
@@ -41067,6 +41390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1706896507
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41149,7 +41473,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1713422604
 Transform:
@@ -41178,6 +41502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1713422606
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41260,7 +41585,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1714399131
 Transform:
@@ -41289,6 +41614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1714399133
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41371,7 +41697,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1716824796
 Transform:
@@ -41400,6 +41726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1716824798
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41558,7 +41885,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1719805685
 Transform:
@@ -41587,6 +41914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1719805687
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41669,7 +41997,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1729676323
 Transform:
@@ -41698,6 +42026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1729676325
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41780,7 +42109,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1730783093
 Transform:
@@ -41809,6 +42138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1730783095
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41891,7 +42221,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1731327653
 Transform:
@@ -41920,6 +42250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1731327655
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42102,7 +42433,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1737654225
 Transform:
@@ -42131,6 +42462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1737654227
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42213,7 +42545,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1746213209
 Transform:
@@ -42242,6 +42574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1746213211
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42478,7 +42811,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1768865606
 Transform:
@@ -42507,6 +42840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1768865608
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42589,7 +42923,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1776433049
 Transform:
@@ -42618,6 +42952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1776433051
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42700,7 +43035,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1779614744
 Transform:
@@ -42729,6 +43064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1779614746
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42887,7 +43223,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1785711839
 Transform:
@@ -42916,6 +43252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1785711841
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42998,7 +43335,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1791929330
 Transform:
@@ -43027,6 +43364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1791929332
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43109,7 +43447,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1792348623
 Transform:
@@ -43138,6 +43476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1792348625
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43220,7 +43559,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1792876551
 Transform:
@@ -43249,6 +43588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1792876553
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43331,7 +43671,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1793204629
 Transform:
@@ -43360,6 +43700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1793204631
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43442,7 +43783,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1795164040
 Transform:
@@ -43471,6 +43812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1795164042
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43629,7 +43971,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1812364581
 Transform:
@@ -43658,6 +44000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1812364583
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43740,7 +44083,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1821673835
 Transform:
@@ -43769,6 +44112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1821673837
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43927,7 +44271,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1837677212
 Transform:
@@ -43956,6 +44300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1837677214
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44038,7 +44383,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1838318946
 Transform:
@@ -44067,6 +44412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1838318948
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44149,7 +44495,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1844935610
 Transform:
@@ -44178,6 +44524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1844935612
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44295,7 +44642,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1861148776
 Transform:
@@ -44324,6 +44671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1861148778
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44406,7 +44754,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1868362614
 Transform:
@@ -44435,6 +44783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1868362616
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44517,7 +44866,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1868664562
 Transform:
@@ -44546,6 +44895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1868664564
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44628,7 +44978,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1884542479
 Transform:
@@ -44657,6 +45007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1884542481
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44739,7 +45090,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1893862374
 Transform:
@@ -44768,6 +45119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1893862376
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44850,7 +45202,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1895705990
 Transform:
@@ -44879,6 +45231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1895705992
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44961,7 +45314,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1896314709
 Transform:
@@ -44990,6 +45343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1896314711
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45172,7 +45526,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1899562387
 Transform:
@@ -45201,6 +45555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1899562389
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45283,7 +45638,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1901752769
 Transform:
@@ -45312,6 +45667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1901752771
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45394,7 +45750,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1913620074
 Transform:
@@ -45423,6 +45779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1913620076
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45766,7 +46123,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1921975110
 Transform:
@@ -45795,6 +46152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1921975112
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46352,7 +46710,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1954960190
 Transform:
@@ -46381,6 +46739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1954960192
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46457,7 +46816,7 @@ GameObject:
   - component: {fileID: 1960292382}
   - component: {fileID: 1960292381}
   m_Layer: 5
-  m_Name: FeddBack - left
+  m_Name: FeedBack - left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46539,7 +46898,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1969752449
 Transform:
@@ -46568,6 +46927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1969752451
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46650,7 +47010,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1975716723
 Transform:
@@ -46679,6 +47039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1975716725
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46761,7 +47122,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1976219203
 Transform:
@@ -46790,6 +47151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1976219205
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46872,7 +47234,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1978136284
 Transform:
@@ -46901,6 +47263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1978136286
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46983,7 +47346,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1981610149
 Transform:
@@ -47012,6 +47375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1981610151
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47094,7 +47458,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1997223111
 Transform:
@@ -47123,6 +47487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &1997223113
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47205,7 +47570,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2004684264
 Transform:
@@ -47234,6 +47599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2004684266
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47392,7 +47758,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2016974508
 Transform:
@@ -47421,6 +47787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2016974510
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47503,7 +47870,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2017307705
 Transform:
@@ -47532,6 +47899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2017307707
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47614,7 +47982,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2019404623
 Transform:
@@ -47643,6 +48011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2019404625
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47725,7 +48094,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2025768541
 Transform:
@@ -47754,6 +48123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2025768543
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47836,7 +48206,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2027496919
 Transform:
@@ -47865,6 +48235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2027496921
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47947,7 +48318,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2030095717
 Transform:
@@ -47976,6 +48347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2030095719
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48134,7 +48506,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2031682186
 Transform:
@@ -48163,6 +48535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2031682188
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48245,7 +48618,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2047301512
 Transform:
@@ -48274,6 +48647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2047301514
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48356,7 +48730,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2055116762
 Transform:
@@ -48385,6 +48759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2055116764
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48467,7 +48842,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2057239537
 Transform:
@@ -48496,6 +48871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2057239539
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48578,7 +48954,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2057305738
 Transform:
@@ -48607,6 +48983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2057305740
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48689,7 +49066,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2067672851
 Transform:
@@ -48718,6 +49095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2067672853
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48900,7 +49278,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2094217335
 Transform:
@@ -48929,6 +49307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2094217337
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49011,7 +49390,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2094942349
 Transform:
@@ -49040,6 +49419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2094942351
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49122,7 +49502,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2101248429
 Transform:
@@ -49151,6 +49531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2101248431
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49233,7 +49614,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2110240589
 Transform:
@@ -49262,6 +49643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2110240591
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49344,7 +49726,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2119604039
 Transform:
@@ -49373,6 +49755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2119604041
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49531,7 +49914,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2125017907
 Transform:
@@ -49560,6 +49943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2125017909
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49803,7 +50187,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2137357340
 Transform:
@@ -49832,6 +50216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8592a23f03461964da7157b48b2770cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  adjacentTiles: []
 --- !u!64 &2137357342
 MeshCollider:
   m_ObjectHideFlags: 0
