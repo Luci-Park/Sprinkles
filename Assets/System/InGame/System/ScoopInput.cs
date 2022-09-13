@@ -16,13 +16,12 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
     [SerializeField] GameObject upFeedback;
     [SerializeField] GameObject downFeedback;
     [SerializeField] RectTransform joystickTransform;
-
     public Direction input { get { return m_input; } }
 
     Direction m_input = Direction.none;
-    Vector2 localDefaultPos;
-    Vector2 worldSpaceDefaultPos;
-    float xymaxDiff = 0.0001f;
+    Vector2 defaultInputPos;
+    Vector2 mouseStartPos;
+    float xymaxDiff = 35f;
 
     //float nonSelectOpacity = 0.25f;
     //float selectedOpacity = 0.75f;
@@ -73,8 +72,7 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
     //---------------------------------------------
     private void Awake()
     {
-        localDefaultPos = joystickTransform.localPosition;
-        worldSpaceDefaultPos = joystickTransform.position;
+        defaultInputPos = joystickTransform.anchoredPosition;
     }
 
     //---------------------------------------------
@@ -100,7 +98,6 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
         {
             return;
         }
-
         OnTouch(eventData.position);
     }
 
@@ -112,7 +109,7 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
         {
             return;
         }
-        isBeingDragged = true;
+        mouseStartPos = eventData.position;
         OnTouch(eventData.position);
     }
 
@@ -124,9 +121,8 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
         {
             return;
         }
-        isBeingDragged = false;
         CheckDirection();
-        joystickTransform.localPosition = localDefaultPos;
+        joystickTransform.anchoredPosition = defaultInputPos;
         TurnOnFeedback();
     }
 
@@ -134,26 +130,20 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
 
     void OnTouch(Vector2 touchedPos)
     {
-        if (player.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+        joystickTransform.position = touchedPos;
+        Vector2 clampPosition = joystickTransform.anchoredPosition;
+        float diff = Mathf.Abs(touchedPos.x - mouseStartPos.x) - Mathf.Abs(touchedPos.y - mouseStartPos.y);
+        if (diff > xymaxDiff)
         {
-            return;
+            Debug.Log(" y clamp " + (Mathf.Abs(touchedPos.x) - Mathf.Abs(touchedPos.y - mouseStartPos.y)).ToString());
+            clampPosition.y = defaultInputPos.y;
         }
-
-        Vector2 resultVect = new(touchedPos.x - worldSpaceDefaultPos.x, touchedPos.y - worldSpaceDefaultPos.y);
-        if (Mathf.Abs(resultVect.x) - Mathf.Abs(resultVect.y) > xymaxDiff)
+        else if (diff < xymaxDiff)
         {
-            resultVect.y = 0f;
+            Debug.Log(" x clamp " + (Mathf.Abs(touchedPos.x) - Mathf.Abs(touchedPos.y)).ToString());
+            clampPosition.x = defaultInputPos.x;
         }
-        else if (Mathf.Abs(resultVect.y) - Mathf.Abs(resultVect.x) > xymaxDiff)
-        {
-            resultVect.x = 0f;
-        }
-        else
-        {
-            resultVect = Vector2.ClampMagnitude(resultVect, xymaxDiff);
-        }
-
-        joystickTransform.localPosition = resultVect;
+        joystickTransform.anchoredPosition = clampPosition;    
     }
 
     //---------------------------------------------
@@ -166,38 +156,29 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
         }
 
         m_input = Direction.none;
-        if (joystickTransform.localPosition.x == 0)
+        Vector2 joystickPos = joystickTransform.anchoredPosition;
+        if (Mathf.Abs(Mathf.Abs(joystickPos.x) - Mathf.Abs(joystickPos.y)) < xymaxDiff) return;
+
+        if (joystickPos.x == defaultInputPos.x)
         {
-            if (joystickTransform.localPosition.y > 0)
+            if (joystickPos.y > defaultInputPos.y)
             {
-                if (joystickTransform.localPosition.y >= up.localPosition.y)
-                {
                     m_input = Direction.up;
-                }
             }
             else
             {
-                if (joystickTransform.localPosition.y <= down.localPosition.y)
-                {
                     m_input = Direction.down;
-                }
             }
         }
         else
         {
-            if (joystickTransform.localPosition.x > 0)
+            if (joystickPos.x > defaultInputPos.x)
             {
-                if (joystickTransform.localPosition.x >= right.localPosition.x)
-                {
-                    m_input = Direction.right;
-                }
+                m_input = Direction.right;
             }
             else
             {
-                if (joystickTransform.localPosition.x <= left.localPosition.x)
-                {
-                    m_input = Direction.left;
-                }
+                m_input = Direction.left;
             }
         }
     }
