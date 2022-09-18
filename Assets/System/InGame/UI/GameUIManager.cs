@@ -10,7 +10,7 @@ public class GameUIManager : MonoBehaviour
     [SerializeField] GameObject gameOverScreen;
     [SerializeField] PopUpAlarm popup;
     [SerializeField] Animator splashAnimation;
-    public Canvas mainCanvas;
+
     public static GameUIManager instance;
 
 
