@@ -9895,7 +9895,7 @@ Camera:
   m_GameObject: {fileID: 358124382}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 3
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -29781,6 +29781,7 @@ MonoBehaviour:
   popup: {fileID: 74768963}
   splashAnimation: {fileID: 1255770645}
   mainCanvas: {fileID: 1333039049}
+  testImage: {fileID: 0}
 --- !u!82 &1202655892
 AudioSource:
   m_ObjectHideFlags: 0

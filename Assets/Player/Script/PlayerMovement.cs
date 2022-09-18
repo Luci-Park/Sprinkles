@@ -80,7 +80,7 @@ public class PlayerMovement : MonoBehaviourPun
         SetCurrentTile(startTile);
         transform.position = startTile.GetTilePoint();
         Planet.instance.Attract(transform, true);
-        SetDestinationTile(startTile.GetNextDest(startTile, Direction8.up));
+        SetDestinationTile(startTile.GetNextDest(startTile, Direction.up));
         LookForward();
     }
 
@@ -187,10 +187,10 @@ public class PlayerMovement : MonoBehaviourPun
 
     void GetNextDestination()
     {
-        Direction8 input = movementInput.input;
-        if (input == Direction8.none || input == Direction8.up)
+        Direction input = movementInput.input;
+        if (input == Direction.none || input == Direction.up)
         {
-            input = Direction8.up;
+            input = Direction.up;
         }
         else
         {
