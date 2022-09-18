@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine.EventSystems;
 using UnityEngine;
 using Photon.Pun;
 
@@ -18,11 +17,10 @@ public class PlayerInput : MonoBehaviourPun
     //---------------------------------------------
     void Update()
     {
-        if(photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+        if(ScoopInput.isBeingDragged || photonView.IsMine == false && PhotonNetwork.IsConnected == true)
         {
             return;
         }
-        if (ScoopInput.isBeingDragged) return;
         Direction dir = DetectSwipe();
         if (dir == Direction.none)
         {
@@ -81,6 +79,7 @@ public class PlayerInput : MonoBehaviourPun
     {
         Direction dir = Direction.none;
         if (Input.touches.Length > 0) {
+            if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)) return dir;
              Touch t = Input.GetTouch(0);
  
              if (t.phase == TouchPhase.Began) {
@@ -94,7 +93,6 @@ public class PlayerInput : MonoBehaviourPun
                 // Make sure it was a legit swipe, not a tap
                 if (currentSwipe.magnitude < minSwipeLength) {
                     dir = Direction.none;
-                    Debug.Log("just a tap");
                     return dir;
                 }
            
