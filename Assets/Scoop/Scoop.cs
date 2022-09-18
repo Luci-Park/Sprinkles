@@ -64,7 +64,7 @@ public class Scoop : MonoBehaviourPun
         return this;
     }
 
-    public Scoop SetStartTileAndDir(Tile beforeTile, Tile currentTile, Direction dir)
+    public Scoop SetStartTileAndDir(Tile beforeTile, Tile currentTile, Direction8 dir)
     {
         Planet.instance.Attract(transform);
         this.currentTile = currentTile;
@@ -74,7 +74,7 @@ public class Scoop : MonoBehaviourPun
 
     void GetNextTile()
     {
-        Tile temp = destinationTile.GetNextDest(currentTile, Direction.up);
+        Tile temp = destinationTile.GetNextDest(currentTile, Direction8.up);
         currentTile = destinationTile;
         destinationTile = temp;
     }

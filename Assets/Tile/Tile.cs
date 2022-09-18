@@ -72,21 +72,21 @@ public class Tile : MonoBehaviour
 
     public Vector3 GetTilePoint()
     {
-        if(adjacentTilePositions[(int)Direction.middle] == null)
+        if(adjacentTilePositions[(int)Direction8.middle] == null)
         {
             Debug.Log("no middle");
         }
-        return adjacentTilePositions[(int)Direction.middle];
+        return adjacentTilePositions[(int)Direction8.middle];
     }
     //---------------------------------------------
     
-    public Tile GetNextDest(Tile beforeTile, Direction moveDirection)
+    public Tile GetNextDest(Tile beforeTile, Direction8 moveDirection)
     {
 
-        Direction currentDirection = Direction.down;
+        Direction8 currentDirection = Direction8.down;
         if (beforeTile != this)
         {
-            for (Direction dir = Direction.up; dir <= Direction.right; ++dir)
+            for (Direction8 dir = Direction8.up; dir <= Direction8.right; ++dir)
             {
                 if(adjacentTiles[(int)dir] == beforeTile)
                 {
@@ -96,7 +96,7 @@ public class Tile : MonoBehaviour
             }
         }
 
-        Direction nextDirection = DirectionFunctions.GetRelativeDirection(currentDirection, moveDirection);
+        Direction8 nextDirection = DirectionFunctions.GetRelativeDirection(currentDirection, moveDirection);
         return adjacentTiles[(int)nextDirection];
     }
     //---------------------------------------------
@@ -119,7 +119,7 @@ public class Tile : MonoBehaviour
     //---------------------------------------------
     void GetListOfAdjacentTiles()
     {
-        for (Direction dir = Direction.middle; dir < Direction.none; ++dir)
+        for (Direction8 dir = Direction8.middle; dir < Direction8.none; ++dir)
         {
             GetAdjecentTilesAtPoint(dir);
         }
@@ -127,7 +127,7 @@ public class Tile : MonoBehaviour
 
     //---------------------------------------------
 
-    Tile GetTileInDirection(Direction direction)
+    Tile GetTileInDirection(Direction8 direction)
     {
         Tile result = null;
         Collider[] hitColliders = Physics.OverlapSphere(adjacentTilePositions[(int)direction], tileAdjacentDistance);
@@ -144,9 +144,9 @@ public class Tile : MonoBehaviour
 
     //---------------------------------------------
 
-    void GetAdjecentTilesAtPoint(Direction direction)
+    void GetAdjecentTilesAtPoint(Direction8 direction)
     {
-        if(direction == Direction.middle)
+        if(direction == Direction8.middle)
         {
             adjacentTiles.Add(this);
             return;
@@ -167,15 +167,15 @@ public class Tile : MonoBehaviour
     void SetPoints()
     {
         Vector3[] corners = GetComponent<MeshFilter>().sharedMesh.vertices;
-        adjacentTilePositions[(int)Direction.middle] = CalculateOrbit();
-        adjacentTilePositions[(int)Direction.upLeft] = transform.TransformPoint(corners[1]);
-        adjacentTilePositions[(int)Direction.upRight] = transform.TransformPoint(corners[2]);
-        adjacentTilePositions[(int)Direction.downRight] = transform.TransformPoint(corners[3]);
-        adjacentTilePositions[(int)Direction.downLeft] = transform.TransformPoint(corners[0]);
-        adjacentTilePositions[(int)Direction.up] = GetMidPoint(adjacentTilePositions[(int)Direction.upLeft], adjacentTilePositions[(int)Direction.upRight]);
-        adjacentTilePositions[(int)Direction.down] = GetMidPoint(adjacentTilePositions[(int)Direction.downLeft], adjacentTilePositions[(int)Direction.downRight]);
-        adjacentTilePositions[(int)Direction.left] = GetMidPoint(adjacentTilePositions[(int)Direction.upLeft], adjacentTilePositions[(int)Direction.downLeft]);
-        adjacentTilePositions[(int)Direction.right] = GetMidPoint(adjacentTilePositions[(int)Direction.upRight], adjacentTilePositions[(int)Direction.downRight]);
+        adjacentTilePositions[(int)Direction8.middle] = CalculateOrbit();
+        adjacentTilePositions[(int)Direction8.upLeft] = transform.TransformPoint(corners[1]);
+        adjacentTilePositions[(int)Direction8.upRight] = transform.TransformPoint(corners[2]);
+        adjacentTilePositions[(int)Direction8.downRight] = transform.TransformPoint(corners[3]);
+        adjacentTilePositions[(int)Direction8.downLeft] = transform.TransformPoint(corners[0]);
+        adjacentTilePositions[(int)Direction8.up] = GetMidPoint(adjacentTilePositions[(int)Direction8.upLeft], adjacentTilePositions[(int)Direction8.upRight]);
+        adjacentTilePositions[(int)Direction8.down] = GetMidPoint(adjacentTilePositions[(int)Direction8.downLeft], adjacentTilePositions[(int)Direction8.downRight]);
+        adjacentTilePositions[(int)Direction8.left] = GetMidPoint(adjacentTilePositions[(int)Direction8.upLeft], adjacentTilePositions[(int)Direction8.downLeft]);
+        adjacentTilePositions[(int)Direction8.right] = GetMidPoint(adjacentTilePositions[(int)Direction8.upRight], adjacentTilePositions[(int)Direction8.downRight]);
 
     }
 
@@ -222,8 +222,8 @@ public class Tile : MonoBehaviour
 
     public void ShowTileInDirection(int i)
     {
-        Tile tile = GetTileInDirection((Direction)i);
-        Debug.Log((Direction)i);
+        Tile tile = GetTileInDirection((Direction8)i);
+        Debug.Log((Direction8)i);
         if (tile == null)
         {
         }
@@ -267,31 +267,31 @@ public class Tile : MonoBehaviour
             SetPoints();
             int i = 0;
             Gizmos.color = colors[i];
-            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction.middle], 0.03f);
+            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction8.middle], 0.03f);
             i++;
             Gizmos.color = colors[i];
-            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction.upLeft], 0.03f);
+            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction8.upLeft], 0.03f);
             i++;
             Gizmos.color = colors[i];
-            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction.upRight], 0.03f);
+            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction8.upRight], 0.03f);
             i++;
             Gizmos.color = colors[i];
-            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction.downRight], 0.03f);
+            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction8.downRight], 0.03f);
             i++;
             Gizmos.color = colors[i];
-            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction.downLeft], 0.03f);
+            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction8.downLeft], 0.03f);
             i++;
             Gizmos.color = colors[i];
-            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction.up], 0.03f);
+            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction8.up], 0.03f);
             i++;
             Gizmos.color = colors[i];
-            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction.down], 0.03f);
+            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction8.down], 0.03f);
             i++;
             Gizmos.color = colors[i];
-            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction.left], 0.03f);
+            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction8.left], 0.03f);
             i++;
             Gizmos.color = colors[i];
-            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction.right], 0.03f);
+            Gizmos.DrawSphere(adjacentTilePositions[(int)Direction8.right], 0.03f);
         }
 
     //---------------------------------------------
