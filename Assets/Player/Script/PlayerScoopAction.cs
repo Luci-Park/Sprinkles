@@ -92,7 +92,7 @@ public class PlayerScoopAction : MonoBehaviourPun
 
     public void TryAttacking()
     {
-        if (hasScoop && scoopInput.input != Direction.none)
+        if (hasScoop && scoopInput.input != Direction8.none)
         {
             UseScoop();
         }

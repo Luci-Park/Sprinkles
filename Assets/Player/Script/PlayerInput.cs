@@ -9,8 +9,9 @@ public class PlayerInput : MonoBehaviourPun
     Vector2 secondPressPos;
     Vector2 currentSwipe;
 
-    public Direction input { get { return m_input; } }
-    private Direction m_input = Direction.none;
+    public Direction8 input { get { return m_input; } }
+    private Direction8 m_input = Direction8.none;
+    bool onUI;
 
     //---------------------------------------------
     #region MonoBehavior
@@ -21,12 +22,12 @@ public class PlayerInput : MonoBehaviourPun
         {
             return;
         }
-        Direction dir = DetectSwipe();
-        if (dir == Direction.none)
+        Direction8 dir = DetectSwipe();
+        if (dir == Direction8.none)
         {
             dir = DetectButtonPress();
         }
-        if (dir != Direction.none)
+        if (dir != Direction8.none)
         {
             m_input = dir;
         }
@@ -43,56 +44,63 @@ public class PlayerInput : MonoBehaviourPun
     
     public void DirReset()
     {
-        m_input = Direction.none;
+        m_input = Direction8.none;
     }
 
     //---------------------------------------------
 
-    public Direction DetectButtonPress()
+    public Direction8 DetectButtonPress()
     {
-        Direction dir;
+        Direction8 dir;
         if (Input.GetKeyDown(KeyCode.W))
         {
-            dir = Direction.up;
+            dir = Direction8.up;
         }
         else if (Input.GetKeyDown(KeyCode.S))
         {
-            dir = Direction.down;
+            dir = Direction8.down;
         }
         else if (Input.GetKeyDown(KeyCode.D))
         {
-            dir = Direction.right;
+            dir = Direction8.right;
         }
         else if (Input.GetKeyDown(KeyCode.A))
         {
-            dir = Direction.left;
+            dir = Direction8.left;
         }
         else {
-            dir = Direction.none;
+            dir = Direction8.none;
         }
         return dir;
     }
 
     //---------------------------------------------
 
-    public Direction DetectSwipe()
+    public Direction8 DetectSwipe()
     {
-        Direction dir = Direction.none;
+        Direction8 dir = Direction8.none;
         if (Input.touches.Length > 0) {
-            if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)) return dir;
              Touch t = Input.GetTouch(0);
  
              if (t.phase == TouchPhase.Began) {
-                 firstPressPos = new Vector2(t.position.x, t.position.y);
+                if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
+                {
+                    onUI = true;
+                }
+                else
+                {
+                    onUI = false;
+                }
+                    firstPressPos = new Vector2(t.position.x, t.position.y);
              }
- 
-             if (t.phase == TouchPhase.Ended) {
+
+             if (t.phase == TouchPhase.Ended && !onUI) {
                 secondPressPos = new Vector2(t.position.x, t.position.y);
                 currentSwipe = new Vector3(secondPressPos.x - firstPressPos.x, secondPressPos.y - firstPressPos.y);
 
                 // Make sure it was a legit swipe, not a tap
                 if (currentSwipe.magnitude < minSwipeLength) {
-                    dir = Direction.none;
+                    dir = Direction8.none;
                     return dir;
                 }
            
@@ -100,16 +108,16 @@ public class PlayerInput : MonoBehaviourPun
 
                 // Swipe up
                 if (currentSwipe.y > 0 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f) {
-                    dir = Direction.up;
+                    dir = Direction8.up;
                 // Swipe down
                 } else if (currentSwipe.y < 0 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f) {
-                    dir = Direction.down;
+                    dir = Direction8.down;
                 // Swipe left
                 } else if (currentSwipe.x < 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f) {
-                    dir = Direction.left;
+                    dir = Direction8.left;
                 // Swipe right
                 } else if (currentSwipe.x > 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f) {
-                    dir = Direction.right;
+                    dir = Direction8.right;
                 }
             }
         }

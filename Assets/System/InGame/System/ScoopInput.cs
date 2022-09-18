@@ -6,19 +6,14 @@ using Photon.Pun;
 public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler
 {
     public static bool isBeingDragged;
-
-    [SerializeField] RectTransform left;
-    [SerializeField] RectTransform right;
-    [SerializeField] RectTransform up;
-    [SerializeField] RectTransform down;
-    [SerializeField] GameObject leftFeedback;
-    [SerializeField] GameObject rightFeedback;
-    [SerializeField] GameObject upFeedback;
-    [SerializeField] GameObject downFeedback;
+    [Tooltip("up, down, left, right")]
+    [SerializeField] RectTransform [] arrows;
+    [Tooltip("up, down, left, right")]
+    [SerializeField] GameObject [] arrowsFeedBack;
     [SerializeField] RectTransform joystickTransform;
-    public Direction input { get { return m_input; } }
+    public Direction8 input { get { return m_input; } }
 
-    Direction m_input = Direction.none;
+    Direction8 m_input = Direction8.none;
     Vector2 defaultInputPos;
     Vector2 mouseStartPos;
     float xymaxDiff = 35f;
@@ -35,10 +30,8 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
     
     void Setup()
     {
-        upFeedback.SetActive(false);
-        downFeedback.SetActive(false);
-        leftFeedback.SetActive(false);
-        rightFeedback.SetActive(false);
+        foreach (GameObject feedBack in arrowsFeedBack)
+            feedBack.SetActive(false);
     }
 
     //---------------------------------------------
@@ -59,7 +52,7 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
 
     public void InputReset()
     {
-        m_input = Direction.none;
+        m_input = Direction8.none;
     }
     //---------------------------------------------
     #endregion
@@ -135,12 +128,10 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
         float diff = Mathf.Abs(touchedPos.x - mouseStartPos.x) - Mathf.Abs(touchedPos.y - mouseStartPos.y);
         if (diff > xymaxDiff)
         {
-            Debug.Log(" y clamp " + (Mathf.Abs(touchedPos.x) - Mathf.Abs(touchedPos.y - mouseStartPos.y)).ToString());
             clampPosition.y = defaultInputPos.y;
         }
         else if (diff < xymaxDiff)
         {
-            Debug.Log(" x clamp " + (Mathf.Abs(touchedPos.x) - Mathf.Abs(touchedPos.y)).ToString());
             clampPosition.x = defaultInputPos.x;
         }
         joystickTransform.anchoredPosition = clampPosition;    
@@ -155,7 +146,7 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
             return;
         }
 
-        m_input = Direction.none;
+        m_input = Direction8.none;
         Vector2 joystickPos = joystickTransform.anchoredPosition;
         if (Mathf.Abs(Mathf.Abs(joystickPos.x) - Mathf.Abs(joystickPos.y)) < xymaxDiff) return;
 
@@ -163,22 +154,22 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
         {
             if (joystickPos.y > defaultInputPos.y)
             {
-                    m_input = Direction.up;
+                    m_input = Direction8.up;
             }
             else
             {
-                    m_input = Direction.down;
+                    m_input = Direction8.down;
             }
         }
         else
         {
             if (joystickPos.x > defaultInputPos.x)
             {
-                m_input = Direction.right;
+                m_input = Direction8.right;
             }
             else
             {
-                m_input = Direction.left;
+                m_input = Direction8.left;
             }
         }
     }
@@ -194,18 +185,19 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
     //---------------------------------------------
     void TurnOnFeedback()
     {
+        
         switch (input)
         {
-            case Direction.up:
+            case Direction8.up:
                 upFeedback.SetActive(true);
                 break;
-            case Direction.down:
+            case Direction8.down:
                 downFeedback.SetActive(true);
                 break;
-            case Direction.left:
+            case Direction8.left:
                 leftFeedback.SetActive(true);
                 break;
-            case Direction.right:
+            case Direction8.right:
                 rightFeedback.SetActive(true);
                 break;
         }
