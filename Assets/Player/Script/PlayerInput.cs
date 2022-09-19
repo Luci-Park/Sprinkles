@@ -11,7 +11,7 @@ public class PlayerInput : MonoBehaviourPun
 
     public Direction input { get { return m_input; } }
     private Direction m_input = Direction.none;
-
+    bool onUI;
     //---------------------------------------------
     #region MonoBehavior
     //---------------------------------------------
@@ -79,14 +79,14 @@ public class PlayerInput : MonoBehaviourPun
     {
         Direction dir = Direction.none;
         if (Input.touches.Length > 0) {
-            if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)) return dir;
              Touch t = Input.GetTouch(0);
  
              if (t.phase == TouchPhase.Began) {
-                 firstPressPos = new Vector2(t.position.x, t.position.y);
+                onUI = EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId);
+                firstPressPos = new Vector2(t.position.x, t.position.y);
              }
  
-             if (t.phase == TouchPhase.Ended) {
+             if (t.phase == TouchPhase.Ended && !onUI) {
                 secondPressPos = new Vector2(t.position.x, t.position.y);
                 currentSwipe = new Vector3(secondPressPos.x - firstPressPos.x, secondPressPos.y - firstPressPos.y);
 
