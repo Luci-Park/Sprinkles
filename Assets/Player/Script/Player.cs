@@ -167,7 +167,7 @@ public class Player : MonoBehaviourPun
 
     void SetOtherModel()
     {
-        //shadowModel.SetActive(false);
+        movement.enabled = false;
         gameCamera.gameObject.SetActive(false);
     }
 

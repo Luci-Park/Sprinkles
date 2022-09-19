@@ -251,8 +251,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: "{inproject}: \uD0A4\uC2A4\uD1A0\uC5B4/user.keystore"
-  AndroidKeyaliasName: luci
+  AndroidKeystoreName: C:/Users/master/Desktop/Project/KeyStore/SilverliningStd.keystore
+  AndroidKeyaliasName: sprinklessilver
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
