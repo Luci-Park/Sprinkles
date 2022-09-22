@@ -3,47 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InGameTimer : MonoBehaviour
+public class InGameTimer : BasicTimer
 {
-    [SerializeField] GameObject beforeThreshold;
-    [SerializeField] GameObject afterThreshold;
+    [SerializeField] GameObject beforeThresholdImage;
+    [SerializeField] GameObject afterThresholdImage;
     [SerializeField] Text timerText;
-    [SerializeField] GameManager gameManager;
-    [SerializeField] float gameTime;
     [SerializeField] float thresholdTime;
 
     GameObject currentUI;
-    float endTime = 0f;
-    float timer;
-
-    bool timerOn = false;
-    bool timeLessThanThresh = false;
 
 
     //---------------------------------------------
     #region Public Functions
     //---------------------------------------------
 
-    public void StartTimer()
+    public void StartGameCountDown()
     {
-        timerOn = true;
-        timeLessThanThresh = false;
-    }
-
-    //---------------------------------------------
-
-    public void StopTimer()
-    {
-        timerOn = false;
+        TimeMoreThanThresh();
+        StartTimer();
     }
 
     //---------------------------------------------
 
     public void ResetTimer()
     {
-        timer = gameTime;
         TimeMoreThanThresh();
+        timer = startTime;
         SetText();
+        ShowTimer();
     }
 
     //---------------------------------------------
@@ -63,7 +50,7 @@ public class InGameTimer : MonoBehaviour
     {
         Color color = Color.white;
         color.a = 1f;
-        currentUI.SetActive(true);
+        if(currentUI!= null) currentUI.SetActive(true);
         timerText.color = color;
     }
 
@@ -86,19 +73,18 @@ public class InGameTimer : MonoBehaviour
 
     void TimeMoreThanThresh()
     {
-        beforeThreshold.SetActive(true);
-        afterThreshold.SetActive(false);
-        currentUI = beforeThreshold;
+        beforeThresholdImage.SetActive(true);
+        afterThresholdImage.SetActive(false);
+        currentUI = beforeThresholdImage;
     }
 
     //---------------------------------------------
 
     void TimeLessThanThresh()
     {
-        timeLessThanThresh = true;
-        beforeThreshold.SetActive(false);
-        afterThreshold.SetActive(true);
-        currentUI = afterThreshold;
+        beforeThresholdImage.SetActive(false);
+        afterThresholdImage.SetActive(true);
+        currentUI = afterThresholdImage;
         BGM.instance.StartCoroutine(BGM.instance.PlayUrgentBGM());
     }
 
@@ -106,7 +92,7 @@ public class InGameTimer : MonoBehaviour
 
     bool TimeIsOver()
     {
-        return timer <= endTime;
+        return timer <= 0;
     }
 
     //---------------------------------------------
@@ -116,33 +102,21 @@ public class InGameTimer : MonoBehaviour
 
 
     //---------------------------------------------
-    #region MonoBehavior
-    //---------------------------------------------
-
-    private void Awake()
+    #region Override Functions
+    //---------------------------------------------    
+    protected override void TimeOver()
     {
-        ResetTimer();
+        GameManager.instance.GameDone();
     }
 
-    //---------------------------------------------
-    
-    void Update()
+    protected override void Tick()
     {
-        if (timerOn)
+        SetText();
+        if(timer == thresholdTime)
         {
-            timer -= Time.deltaTime;
-            SetText();
-            if(timer <= thresholdTime&&!timeLessThanThresh)
-            {
-                TimeLessThanThresh();
-            }
-            if (TimeIsOver())
-            {
-                gameManager.GameDone();
-            }
-        }   
+            TimeLessThanThresh();
+        }
     }
-
     //---------------------------------------------
     #endregion
     //---------------------------------------------

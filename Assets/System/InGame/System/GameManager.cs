@@ -5,9 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviourPun
 {
     [SerializeField] GameObject playerPrefab;
-    [SerializeField] GameUIManager uIManager;
     [SerializeField] GameObject scoopParent;
-    [SerializeField] GameObject preScoopParent;
     [SerializeField] InGameTimer gameTimer;
     [SerializeField] BeginningCountDown countDown;
     [SerializeField] ScoopInput scoopInput;
@@ -29,25 +27,28 @@ public class GameManager : MonoBehaviourPun
     {
         Singleton();
         SpawnPlayer();
-        StartCoroutine(PrepAndStart());
     }
 
     //---------------------------------------------
+    private void Start()
+    {
+        PrepAndStart();
+    }
+    //---------------------------------------------
+
 
     [PunRPC]
     void RPC_Reset()
     {
-        StartCoroutine(PrepAndStart());
+        PrepAndStart();
     }
     
     //---------------------------------------------
 
-    IEnumerator PrepAndStart()
+    public void PrepAndStart()
     {
         PrepareGame();
-        yield return StartCoroutine(countDown.CountDown());
-        StartGame();
-
+        countDown.StartCountDown();
     }
 
     //---------------------------------------------
@@ -59,7 +60,7 @@ public class GameManager : MonoBehaviourPun
         Planet.instance.ResetTiles();
         int plane = GetRandomPlayerTile();
         player.SetStartingPoint(Planet.instance.GetTile(plane));
-        uIManager.ResetUI();
+        GameUIManager.instance.ResetUI();
         PreScoopParent.instance.PlaceAllPreScoop();
         gameTimer.ResetTimer();
     }
@@ -70,7 +71,7 @@ public class GameManager : MonoBehaviourPun
     {
         isPlaying = true;
         player.StartGame();
-        gameTimer.StartTimer();
+        gameTimer.StartGameCountDown();
         BGM.instance.PlayUsualBGM();
     }
 
@@ -134,8 +135,7 @@ public class GameManager : MonoBehaviourPun
     public void GameDone()
     {
         isPlaying = false;
-        uIManager.ShowGameOverScreen();
-        gameTimer.StopTimer();
+        GameUIManager.instance.ShowGameOverScreen();
         player.GameOver();
         foreach(Scoop scoop in scoopParent.transform.GetComponentsInChildren<Scoop>())
         {
@@ -152,7 +152,7 @@ public class GameManager : MonoBehaviourPun
     public void Reset()
     {
         //LevelManager.levelManager.StartGame();
-        StartCoroutine(PrepAndStart());
+        PrepAndStart();
         photonView.RPC("RPC_Reset", RpcTarget.Others);
     }
 

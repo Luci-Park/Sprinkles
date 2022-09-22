@@ -135,12 +135,10 @@ public class ScoopInput : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoi
         float diff = Mathf.Abs(touchedPos.x - mouseStartPos.x) - Mathf.Abs(touchedPos.y - mouseStartPos.y);
         if (diff > xymaxDiff)
         {
-            Debug.Log(" y clamp " + (Mathf.Abs(touchedPos.x) - Mathf.Abs(touchedPos.y - mouseStartPos.y)).ToString());
             clampPosition.y = defaultInputPos.y;
         }
         else if (diff < xymaxDiff)
         {
-            Debug.Log(" x clamp " + (Mathf.Abs(touchedPos.x) - Mathf.Abs(touchedPos.y)).ToString());
             clampPosition.x = defaultInputPos.x;
         }
         joystickTransform.anchoredPosition = clampPosition;    

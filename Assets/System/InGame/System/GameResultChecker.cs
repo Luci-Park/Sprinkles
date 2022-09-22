@@ -44,7 +44,8 @@ public class GameResultChecker : MonoBehaviour
             lose.SetActive(true);
         }
 
-        endCountDown.StartCoroutine(endCountDown.CountDown());
+        yield return new WaitForSeconds(3f);
+        endCountDown.StartCountDown();
     }
     //---------------------------------------------
     #endregion
