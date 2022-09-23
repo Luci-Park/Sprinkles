@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameUIManager : MonoBehaviour
+public class GameUIManager : MonoBehaviour, IGameObserver
 {
     [SerializeField] GameObject scoopJoyStickUI;
     [SerializeField] InGameTimer gameTimer;
@@ -122,6 +122,34 @@ public class GameUIManager : MonoBehaviour
     {
         Singleton();
     }
+    //---------------------------------------------
+    private void Start()
+    {
+        GameManager.instance.AddObserver(this);
+    }
+    //---------------------------------------------
+    #endregion
+    //---------------------------------------------
+
+
+
+    //---------------------------------------------
+    #region Observer Functions
+    //---------------------------------------------
+    public void NotifyPreparation()
+    {
+        ResetUI();
+    }
+    //---------------------------------------------
+    public void NotifyGameStart()
+    {
+    }
+    //---------------------------------------------
+    public void NotifyGameOver()
+    {
+        ShowGameOverScreen();
+    }
+
     //---------------------------------------------
     #endregion
     //---------------------------------------------

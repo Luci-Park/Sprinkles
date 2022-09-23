@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using Photon.Pun;
 
-public class Planet : MonoBehaviour
+public class Planet : MonoBehaviour, IGameObserver
 {
     public static readonly int[] planeNumbers = { 64, 128, 192, 256, 320, 384 };
     public static Planet instance;
@@ -155,7 +155,11 @@ public class Planet : MonoBehaviour
         Singleton();
         photonView = GetComponent<PhotonView>();
     }
-
+    //---------------------------------------------
+    private void Start()
+    {
+        GameManager.instance.AddObserver(this);
+    }
     //---------------------------------------------
     #endregion
     //---------------------------------------------
@@ -168,12 +172,29 @@ public class Planet : MonoBehaviour
 
     void Singleton()
     {
-        if (instance != null && instance != this)
-        {
-            Destroy(gameObject);
-        }
         instance = this;
-        DontDestroyOnLoad(gameObject);
+    }
+    //---------------------------------------------
+    #endregion
+    //---------------------------------------------
+
+
+
+    //---------------------------------------------
+    #region Observer Functions
+    //---------------------------------------------
+    public void NotifyPreparation()
+    {
+        ResetTiles();
+    }
+    //---------------------------------------------
+    public void NotifyGameStart()
+    {
+    }
+    //---------------------------------------------
+    public void NotifyGameOver()
+    {
+        CountTiles();
     }
 
     //---------------------------------------------

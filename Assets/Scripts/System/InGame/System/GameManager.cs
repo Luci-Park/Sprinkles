@@ -1,28 +1,44 @@
 ﻿using Photon.Pun;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviourPun
 {
     [SerializeField] GameObject playerPrefab;
     [SerializeField] GameObject scoopParent;
-    [SerializeField] InGameTimer gameTimer;
-    [SerializeField] BeginningCountDown countDown;
     [SerializeField] ScoopInput scoopInput;
 
     [SerializeField] CameraWalk endCamera;
 
+    public static GameManager instance;
+
     static int[] playeroccuPiedTiles = new int[6];
     static int[] numberOfTeamMembers = new int[(int)Team.none];
+
     Player player;
 
-    public static bool isPlaying = false;
-    public static GameManager instance;
+    List<IGameObserver> observers = new List<IGameObserver>();
+
+
+
+    //---------------------------------------------
+    #region ObserverSetters
+    //---------------------------------------------
+    public void AddObserver(IGameObserver observer)
+    {
+        if (!observers.Contains(observer)) observers.Add(observer);
+    }
+    //---------------------------------------------
+    #endregion
+    //---------------------------------------------
+
+
 
     //---------------------------------------------
     #region Game Status Preparation
     //---------------------------------------------
-    
+
     void Awake()
     {
         Singleton();
@@ -32,7 +48,7 @@ public class GameManager : MonoBehaviourPun
     //---------------------------------------------
     private void Start()
     {
-        PrepAndStart();
+        PrepareGame();
     }
     //---------------------------------------------
 
@@ -40,41 +56,40 @@ public class GameManager : MonoBehaviourPun
     [PunRPC]
     void RPC_Reset()
     {
-        PrepAndStart();
-    }
-    
-    //---------------------------------------------
-
-    public void PrepAndStart()
-    {
         PrepareGame();
-        countDown.StartCountDown();
     }
 
     //---------------------------------------------
 
-    void PrepareGame()
+    public void PrepareGame()
     {
         endCamera.gameObject.SetActive(false);
-        Arena.instance.ResetPostion();
-        Planet.instance.ResetTiles();
-        int plane = GetRandomPlayerTile();
-        player.SetStartingPoint(Planet.instance.GetTile(plane));
-        GameUIManager.instance.ResetUI();
-        PreScoopParent.instance.PlaceAllPreScoop();
-        gameTimer.ResetTimer();
+        NotifyGamePrep();
     }
 
     //---------------------------------------------
 
     public void StartGame()
     {
-        isPlaying = true;
-        player.StartGame();
-        gameTimer.StartGameCountDown();
+        NotifyGameStart();
         BGM.instance.PlayUsualBGM();
     }
-
+    //---------------------------------------------
+    private void NotifyGamePrep()
+    {
+        foreach (IGameObserver observer in observers)
+        {
+            observer.NotifyPreparation();
+        }
+    }
+    //---------------------------------------------
+    private void NotifyGameStart()
+    {
+        foreach (IGameObserver observer in observers)
+        {
+            observer.NotifyGameStart();
+        }
+    }
     //---------------------------------------------
     #endregion
     //---------------------------------------------
@@ -95,10 +110,13 @@ public class GameManager : MonoBehaviourPun
             player = PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(0f, 5f, 0f), Quaternion.identity, 0).GetComponent<Player>();
             player.transform.parent = Arena.instance.transform;
             player.GamePrep(scoopInput, scoopParent.transform);
+            
+            int plane = GetRandomPlayerTile();
+            player.SetStartingPoint(Planet.instance.GetTile(plane));
         }
     }
     //---------------------------------------------
-    int GetRandomPlayerTile()
+    public int GetRandomPlayerTile()
     {
         int plane;
         do {
@@ -134,17 +152,9 @@ public class GameManager : MonoBehaviourPun
     //---------------------------------------------
     public void GameDone()
     {
-        isPlaying = false;
-        GameUIManager.instance.ShowGameOverScreen();
-        player.GameOver();
-        foreach(Scoop scoop in scoopParent.transform.GetComponentsInChildren<Scoop>())
-        {
-            PhotonNetwork.Destroy(scoop.gameObject);
-        }
-        Planet.instance.CountTiles();
-        Arena.endRotate = true;
-        endCamera.gameObject.SetActive(true);
-        endCamera.StartCameraWalk(player.GiveCameraPos());
+        NotifyGameDone();
+        DestroyAllGameObjects();
+        EndCameraWalk();
     }
 
     //---------------------------------------------
@@ -152,10 +162,31 @@ public class GameManager : MonoBehaviourPun
     public void Reset()
     {
         //LevelManager.levelManager.StartGame();
-        PrepAndStart();
+        PrepareGame();
         photonView.RPC("RPC_Reset", RpcTarget.Others);
     }
-
+    //---------------------------------------------
+    private void DestroyAllGameObjects()
+    {
+        foreach (Scoop scoop in scoopParent.transform.GetComponentsInChildren<Scoop>())
+        {
+            PhotonNetwork.Destroy(scoop.gameObject);
+        }
+    }
+    //---------------------------------------------
+    private void NotifyGameDone()
+    {
+        foreach(IGameObserver observer in observers)
+        {
+            observer.NotifyGameOver();
+        }
+    }
+    //---------------------------------------------
+    private void EndCameraWalk()
+    {
+        endCamera.gameObject.SetActive(true);
+        endCamera.StartCameraWalk(player.GiveCameraPos());
+    }
     //---------------------------------------------
     #endregion
     //---------------------------------------------
@@ -168,10 +199,6 @@ public class GameManager : MonoBehaviourPun
 
     void Singleton()
     {
-        if (instance != null && instance != this)
-        {
-            Destroy(gameObject);
-        }
         instance = this;
     }
 

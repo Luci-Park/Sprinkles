@@ -20,7 +20,7 @@ public class EndCountDown : ImageSoundTimer
     {
         StopTimer();
         TurnAllOff();
-        GameManager.instance.PrepAndStart();
+        GameManager.instance.PrepareGame();
     }
     //---------------------------------------------
     #endregion

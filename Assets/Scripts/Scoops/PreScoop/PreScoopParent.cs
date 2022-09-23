@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PreScoopParent : MonoBehaviour
+public class PreScoopParent : MonoBehaviour, IGameObserver
 {
-    public static PreScoopParent instance;
     float preScoopRespawnTime = 5f;
 
     int[] planePlacedSituation = new int[6];
@@ -123,33 +122,37 @@ public class PreScoopParent : MonoBehaviour
     //---------------------------------------------
     private void Awake()
     {
-        Singleton();
         placedTile = new int[transform.childCount];
         listOfPlayers = FindObjectsOfType<PlayerMovement>();
     }
 
     //---------------------------------------------
+    private void Start()
+    {
+        GameManager.instance.AddObserver(this);
+    }
+    //---------------------------------------------
     #endregion
     //---------------------------------------------
 
 
-
     //---------------------------------------------
-    #region ETC.
+    #region Observer Functions
     //---------------------------------------------
-
-    void Singleton()
+    public void NotifyPreparation()
     {
-        if (instance != null && instance != this)
-        {
-            Destroy(gameObject);
-        }
-        instance = this;
-        DontDestroyOnLoad(gameObject);
+        PlaceAllPreScoop();
+    }
+    //---------------------------------------------
+    public void NotifyGameStart()
+    {
+    }
+    //---------------------------------------------
+    public void NotifyGameOver()
+    {
     }
 
     //---------------------------------------------
     #endregion
     //---------------------------------------------
-
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PreScoop : MonoBehaviour
 {
     int tileNumber;
-
+    PreScoopParent parent;
     //---------------------------------------------
     #region PlaceFunctions
     //---------------------------------------------
@@ -38,7 +38,7 @@ public class PreScoop : MonoBehaviour
         if (player != null && player.photonView.IsMine)
         {
             player.GetPlayerScoop().GotScoop();
-            PreScoopParent.instance.PrescoopEaten(this);
+            parent.PrescoopEaten(this);
         }
     }
 
@@ -46,4 +46,16 @@ public class PreScoop : MonoBehaviour
     #endregion
     //---------------------------------------------
 
+
+
+    //---------------------------------------------
+    #region MonoBehavior
+    //---------------------------------------------
+    private void Start()
+    {
+        parent = GetComponentInParent<PreScoopParent>();
+    }
+    //---------------------------------------------
+    #endregion
+    //---------------------------------------------
 }

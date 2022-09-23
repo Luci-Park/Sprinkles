@@ -3,7 +3,7 @@ using UnityEngine;
 
 using Photon.Pun;
 
-public class Player : MonoBehaviourPun
+public class Player : MonoBehaviourPun, IGameObserver
 {
     public static GameObject localPlayerInstance;
 
@@ -247,7 +247,33 @@ public class Player : MonoBehaviourPun
         {
             photonView.RPC("RPC_GetTeam", RpcTarget.MasterClient);
         }
+        GameManager.instance.AddObserver(this);
     }
+    //---------------------------------------------
+    #endregion
+    //---------------------------------------------
+
+
+
+    //---------------------------------------------
+    #region Observer Functions
+    //---------------------------------------------
+    public void NotifyPreparation()
+    {
+        int plane = GameManager.instance.GetRandomPlayerTile();
+        SetStartingPoint(Planet.instance.GetTile(plane));
+    }
+    //---------------------------------------------
+    public void NotifyGameStart()
+    {
+        StartGame();
+    }
+    //---------------------------------------------
+    public void NotifyGameOver()
+    {
+        GameOver();
+    }
+
     //---------------------------------------------
     #endregion
     //---------------------------------------------

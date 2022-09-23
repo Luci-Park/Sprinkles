@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InGameTimer : BasicTimer
+public class InGameTimer : BasicTimer, IGameObserver
 {
     [SerializeField] GameObject beforeThresholdImage;
     [SerializeField] GameObject afterThresholdImage;
@@ -122,6 +122,36 @@ public class InGameTimer : BasicTimer
     //---------------------------------------------
 
 
-   
 
+    //---------------------------------------------
+    #region Observer Functions
+    //---------------------------------------------
+    public void NotifyPreparation()
+    {
+        ResetTimer();
+    }
+    //---------------------------------------------
+    public void NotifyGameStart()
+    {
+        StartGameCountDown();
+    }
+    //---------------------------------------------
+    public void NotifyGameOver()
+    {
+    }
+
+    //---------------------------------------------
+    #endregion
+    //---------------------------------------------
+
+    //---------------------------------------------
+    #region MonoBehavior
+    //---------------------------------------------
+    private void Start()
+    {
+        GameManager.instance.AddObserver(this);
+    }
+    //---------------------------------------------
+    #endregion
+    //---------------------------------------------
 }

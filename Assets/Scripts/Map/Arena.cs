@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Arena : MonoBehaviour
+public class Arena : MonoBehaviour, IGameObserver
 {
     public float endRotateSpeed = 0.3f;
     public static bool endRotate = false;
@@ -45,6 +45,11 @@ public class Arena : MonoBehaviour
         Singleton();
     }
     //---------------------------------------------
+    private void Start()
+    {
+        GameManager.instance.AddObserver(this);
+    }
+    //---------------------------------------------
     #endregion
     //---------------------------------------------
 
@@ -56,11 +61,30 @@ public class Arena : MonoBehaviour
 
     void Singleton()
     {
-        if (instance != null && instance != this)
-        {
-            Destroy(gameObject);
-        }
         instance = this;
+    }
+
+    //---------------------------------------------
+    #endregion
+    //---------------------------------------------
+
+
+
+    //---------------------------------------------
+    #region Observer Functions
+    //---------------------------------------------
+    public void NotifyPreparation()
+    {
+        ResetPostion();
+    }
+    //---------------------------------------------
+    public void NotifyGameStart()
+    {
+    }
+    //---------------------------------------------
+    public void NotifyGameOver()
+    {
+        endRotate = true;
     }
 
     //---------------------------------------------
