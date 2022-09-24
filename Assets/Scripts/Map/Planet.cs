@@ -12,10 +12,12 @@ public class Planet : MonoBehaviour, IGameObserver
     public float gravity = -12;
     public float rotSpeed = 10f;
 
-    private int[] tilesTeamsCount = new int[(int)Team.none];
+    private int[] tilesTeamsCount = new int[(int)Team.none + 1];
 
     PhotonView photonView;
+    int numberOfTiles;
 
+    Tile[] TileChildren;
 
     //---------------------------------------------
     #region Gravity Functions
@@ -56,14 +58,13 @@ public class Planet : MonoBehaviour, IGameObserver
     //---------------------------------------------
 
 
-
     //---------------------------------------------
     #region Tile Functions
     //---------------------------------------------
 
     public Tile GetTile(int tileNumber)
     {
-        return transform.GetChild(tileNumber).GetComponent<Tile>();
+        return TileChildren[tileNumber];// transform.GetChild(tileNumber).GetComponent<Tile>();
     }
 
     //---------------------------------------------
@@ -95,14 +96,33 @@ public class Planet : MonoBehaviour, IGameObserver
 
     //---------------------------------------------
 
+
+    public void TileChanged(Team from, Team to, int tileIndex)
+    {
+        TileCount(from, to);
+        RPC_SendChangeTileColorMesg(tileIndex, from, to);
+    }
+
+    //---------------------------------------------
+    void TileCount(Team from, Team to)
+    {
+        tilesTeamsCount[(int)from] -= 1;
+        tilesTeamsCount[(int)to] += 1;
+    }
+    //---------------------------------------------
+    void ResetTileCount()
+    {
+        for(int i = 0; i< (int)Team.none; ++i)
+        {
+            tilesTeamsCount[i] = 0;
+        }
+        tilesTeamsCount[(int)Team.none] = numberOfTiles;
+    }
+
+    //---------------------------------------------
+
     public void CountTiles()
     {
-        Array.Clear(tilesTeamsCount, 0, tilesTeamsCount.Length);
-        foreach (Tile tile in GetComponentsInChildren<Tile>())
-        {
-            if (tile.GetTileTeam() == Team.none) continue;
-            tilesTeamsCount[(int)tile.GetTileTeam()]++;
-        }
         GameResultChecker.instance.StartCoroutine(GameResultChecker.instance.CheckResults(tilesTeamsCount));
     }
 
@@ -110,9 +130,9 @@ public class Planet : MonoBehaviour, IGameObserver
 
     public void ResetTiles()
     {
-        foreach (Tile tile in GetComponentsInChildren<Tile>())
+        foreach (Tile tile in TileChildren)
         {
-            tile.ChangeColor(Team.none);
+            tile.ChangeColorImmediately(Team.none);
         }
     }
 
@@ -127,17 +147,18 @@ public class Planet : MonoBehaviour, IGameObserver
     //---------------------------------------------
 
     [PunRPC]
-    public void RPC_SendChangeTileColorMesg(int childIndex, Team team)
+    void RPC_SendChangeTileColorMesg(int childIndex, Team from, Team to)
     {
-        photonView.RPC("RPC_ReceiveTileChangeColorMesg", RpcTarget.OthersBuffered, childIndex, team);
+        photonView.RPC("RPC_ReceiveTileChangeColorMesg", RpcTarget.OthersBuffered, childIndex, (int)from,(int)to);
     }
 
     //---------------------------------------------
 
     [PunRPC]
-    void RPC_ReceiveTileChangeColorMesg(int childIndex, Team team)
+    void RPC_ReceiveTileChangeColorMesg(int childIndex, int from, int to)
     {
-        transform.GetChild(childIndex).GetComponent<Tile>().ChangeColor(team);
+        transform.GetChild(childIndex).GetComponent<Tile>().ChangeColor((Team)to);
+        TileCount((Team)from, (Team)to);
     }
 
     //---------------------------------------------
@@ -154,6 +175,8 @@ public class Planet : MonoBehaviour, IGameObserver
     {
         Singleton();
         photonView = GetComponent<PhotonView>();
+        numberOfTiles = transform.childCount;
+        TileChildren = GetComponentsInChildren<Tile>();
     }
     //---------------------------------------------
     private void Start()
@@ -186,6 +209,7 @@ public class Planet : MonoBehaviour, IGameObserver
     public void NotifyPreparation()
     {
         ResetTiles();
+        ResetTileCount();
     }
     //---------------------------------------------
     public void NotifyGameStart()

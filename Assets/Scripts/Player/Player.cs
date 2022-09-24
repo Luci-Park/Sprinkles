@@ -1,24 +1,30 @@
 using System.Collections;
 using UnityEngine;
-
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 using Photon.Pun;
 
 public class Player : MonoBehaviourPun, IGameObserver
 {
     public static GameObject localPlayerInstance;
 
+    public enum PlayerStatus { Loading, Ready, GameOver};
+
+    public PlayerStatus status = PlayerStatus.Loading;
     public Team myTeam = Team.mint;
+
+    static string statusKey = "Status";
 
     [SerializeField] Transform modelingPosition;
     //[SerializeField] GameObject shadowModel;
     [SerializeField] Transform gameCamera;
+
+    Hashtable hash = new Hashtable();
 
     PlayerMovement movement;
     PlayerScoopAction scoopAction;
     PlayerSound sound;
 
     Animator animator;
-
     GameObject modeling;
 
     //---------------------------------------------
@@ -237,6 +243,7 @@ public class Player : MonoBehaviourPun, IGameObserver
         {
             SetOtherModel();
         }
+        GameManager.instance.AddObserver(this);
     }
 
     //---------------------------------------------
@@ -247,7 +254,6 @@ public class Player : MonoBehaviourPun, IGameObserver
         {
             photonView.RPC("RPC_GetTeam", RpcTarget.MasterClient);
         }
-        GameManager.instance.AddObserver(this);
     }
     //---------------------------------------------
     #endregion

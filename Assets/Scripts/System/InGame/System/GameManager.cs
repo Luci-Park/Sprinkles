@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviourPun
 
     List<IGameObserver> observers = new List<IGameObserver>();
 
+    Photon.Realtime.LoadBalancingClient balancingClient = new Photon.Realtime.LoadBalancingClient();
 
 
     //---------------------------------------------
@@ -110,7 +111,6 @@ public class GameManager : MonoBehaviourPun
             player = PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(0f, 5f, 0f), Quaternion.identity, 0).GetComponent<Player>();
             player.transform.parent = Arena.instance.transform;
             player.GamePrep(scoopInput, scoopParent.transform);
-            
             int plane = GetRandomPlayerTile();
             player.SetStartingPoint(Planet.instance.GetTile(plane));
         }
@@ -200,6 +200,12 @@ public class GameManager : MonoBehaviourPun
     void Singleton()
     {
         instance = this;
+    }
+
+
+    private void FixedUpdate()
+    {
+        balancingClient.Service();
     }
 
     //---------------------------------------------

@@ -25,9 +25,17 @@ public class Tile : MonoBehaviour
     public void ChangeColor(Team newTeam)
     {
         if (newTeam == myTeam) return;
-        Planet.instance.RPC_SendChangeTileColorMesg(tileIndex, newTeam);
+        Planet.instance.TileChanged(myTeam, newTeam, tileIndex);
+       //Planet.instance.RPC_SendChangeTileColorMesg(tileIndex, newTeam);
         StartCoroutine(LerpColor(TeamController.GetTeamColor(myTeam), TeamController.GetTeamColor(newTeam)));
         myTeam = newTeam;
+    }
+    //---------------------------------------------
+    public void ChangeColorImmediately(Team newTeam)
+    {
+        //Planet.instance.RPC_SendChangeTileColorMesg(tileIndex, newTeam);
+        myTeam = newTeam;
+        rend.material.color = TeamController.GetTeamColor(newTeam);
     }
 
     //---------------------------------------------
