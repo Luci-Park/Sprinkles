@@ -1,14 +1,18 @@
-﻿using Photon.Pun;
-using System.Collections;
+﻿using ExitGames.Client.Photon;
+using Photon.Pun;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Realtime;
 
-public class GameManager : MonoBehaviourPun
+public class GameManager : MonoBehaviourPunCallbacks
 {
+    public const string PLAYER_STATE = "PlayerState";
+
     [SerializeField] GameObject playerPrefab;
     [SerializeField] GameObject scoopParent;
     [SerializeField] ScoopInput scoopInput;
-
+    [SerializeField] BeginningCountDown beginningCountDown;
+    [SerializeField] EndCountDown endCountDown;
     [SerializeField] CameraWalk endCamera;
 
     public static GameManager instance;
@@ -17,11 +21,12 @@ public class GameManager : MonoBehaviourPun
     static int[] numberOfTeamMembers = new int[(int)Team.none];
 
     Player player;
+    PlayerReadyState waitingFor = PlayerReadyState.ReadyToStart;
 
     List<IGameObserver> observers = new List<IGameObserver>();
 
     Photon.Realtime.LoadBalancingClient balancingClient = new Photon.Realtime.LoadBalancingClient();
-
+    Photon.Realtime.Player[] players;
 
     //---------------------------------------------
     #region ObserverSetters
@@ -50,6 +55,7 @@ public class GameManager : MonoBehaviourPun
     private void Start()
     {
         PrepareGame();
+        players = PhotonNetwork.PlayerList;//Photon
     }
     //---------------------------------------------
 
@@ -66,6 +72,7 @@ public class GameManager : MonoBehaviourPun
     {
         endCamera.gameObject.SetActive(false);
         NotifyGamePrep();
+        waitingFor = PlayerReadyState.ReadyToStart;
     }
 
     //---------------------------------------------
@@ -152,6 +159,7 @@ public class GameManager : MonoBehaviourPun
     //---------------------------------------------
     public void GameDone()
     {
+        waitingFor = PlayerReadyState.ReadyToEnd;
         NotifyGameDone();
         DestroyAllGameObjects();
         EndCameraWalk();
@@ -191,7 +199,34 @@ public class GameManager : MonoBehaviourPun
     #endregion
     //---------------------------------------------
 
+    public override void OnPlayerPropertiesUpdate(Photon.Realtime.Player targetPlayer, Hashtable state)
+    {
+        object playerState;
+        if (state.TryGetValue(PLAYER_STATE, out playerState) && (PlayerReadyState)playerState == waitingFor)
+        {
+            CheckPlayersReady(waitingFor);
+        }
+    }
 
+    void CheckPlayersReady(PlayerReadyState state)
+    {
+        foreach (Photon.Realtime.Player p in players)
+        {
+            object playerState;
+            if (p.CustomProperties.TryGetValue(PLAYER_STATE, out playerState) && (PlayerReadyState)playerState != state)
+            {
+                return;
+            }
+        }
+        if (PlayerReadyState.ReadyToStart == state) {
+            beginningCountDown.StartCountDown();
+            //startTimer();//StartGame();
+        }
+        else if (PlayerReadyState.ReadyToEnd == state) {
+            endCountDown.StartCountDown();
+            //startEndTimer();
+        }
+    }
 
     //---------------------------------------------
     #region private functions
