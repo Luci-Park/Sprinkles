@@ -7,26 +7,21 @@ public class Scoop : MonoBehaviourPun
     Tile currentTile;
     Tile destinationTile;
     float moveSpeed = 10f;
-    float invincibleTimer = 0;
-    float maxTimer = 1f;
-
+    float invincibleTime = 0.5f;
+    float timer = 0;
+    bool invincible = true;
 
     // Update is called once per frame
     void Update()
     {
         //if (!canMove) return;
-        
+        timer += Time.deltaTime;
+        if (timer > invincibleTime) invincible = false;
         Move();
-        invincibleTimer += Time.deltaTime;        
         if (OnDest())
         {
             GetNextTile();
         }
-    }
-
-    private void FixedUpdate()
-    {
-       // Planet.instance.Attract(transform);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -34,7 +29,7 @@ public class Scoop : MonoBehaviourPun
         Player player = other.GetComponentInParent<Player>();
         if (player != null)
         {
-            if(player.photonView.IsMine && invincibleTimer < maxTimer)
+            if(player.photonView.IsMine && invincible)
             {
                 return;
             }
@@ -45,6 +40,15 @@ public class Scoop : MonoBehaviourPun
             }
             player.GetPlayerScoop().OnHit(myTeam);
             PhotonNetwork.Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        Player player = other.GetComponentInParent<Player>();
+        if(player != null && player.photonView.IsMine)
+        {
+            invincible = false;
         }
     }
 

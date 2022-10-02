@@ -202,6 +202,7 @@ public class GameManager : MonoBehaviourPun
         instance = this;
     }
 
+    //---------------------------------------------
 
     private void FixedUpdate()
     {

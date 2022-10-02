@@ -14334,7 +14334,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &551347855
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29891,8 +29891,6 @@ MonoBehaviour:
   playerPrefab: {fileID: 5038167775534758933, guid: 8fc51da80a6786648b2658fd2d1a8d0e,
     type: 3}
   scoopParent: {fileID: 775874579}
-  gameTimer: {fileID: 273665294}
-  countDown: {fileID: 1230457588}
   scoopInput: {fileID: 298225967}
   endCamera: {fileID: 358124383}
 --- !u!114 &1202655890
