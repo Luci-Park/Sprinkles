@@ -237,6 +237,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         instance = this;
     }
 
+    //---------------------------------------------
 
     private void FixedUpdate()
     {
