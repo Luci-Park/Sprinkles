@@ -14,13 +14,15 @@ public class Scoop : MonoBehaviourPun
     // Update is called once per frame
     void Update()
     {
-        //if (!canMove) return;
-        timer += Time.deltaTime;
-        if (timer > invincibleTime) invincible = false;
-        Move();
-        if (OnDest())
+        if (photonView.IsMine)
         {
-            GetNextTile();
+            timer += Time.deltaTime;
+            if (timer > invincibleTime) invincible = false;
+            Move();
+            if (OnDest())
+            {
+                GetNextTile();
+            }
         }
     }
 
@@ -29,7 +31,7 @@ public class Scoop : MonoBehaviourPun
         Player player = other.GetComponentInParent<Player>();
         if (player != null)
         {
-            if(player.photonView.IsMine && invincible)
+            if(player.IsTeam(myTeam) && invincible)
             {
                 return;
             }
