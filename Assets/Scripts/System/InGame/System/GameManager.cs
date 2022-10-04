@@ -11,8 +11,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     [SerializeField] GameObject playerPrefab;
     [SerializeField] GameObject scoopParent;
     [SerializeField] ScoopInput scoopInput;
-    [SerializeField] BeginningCountDown beginningCountDown;
-    [SerializeField] EndCountDown endCountDown;
+    //[SerializeField] BeginningCountDownTimer beginningCountDown;
     [SerializeField] CameraWalk endCamera;
 
     public static GameManager instance;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EndCountDown : ImageSoundTimer
+public class EndCountDownTimer : ImageSoundTimer
 {
 
     protected override void TimeOver()

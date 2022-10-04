@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraWalk : MonoBehaviour
 {
-    public static float cameraWalkTime = 2f;
+    public static float cameraWalkTime = 2.5f;
     [SerializeField] float moveSpeed;
     [SerializeField] Transform planet;
     [SerializeField] float planetDistance;
@@ -23,6 +23,7 @@ public class CameraWalk : MonoBehaviour
             transform.LookAt(planet);
             yield return null; 
         }
+
     }
 
     //---------------------------------------------

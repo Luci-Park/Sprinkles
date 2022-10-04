@@ -3695,7 +3695,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1176595341}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: 
         m_MethodName: StopTimer
         m_Mode: 1
@@ -29322,8 +29322,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1176595340}
-  - component: {fileID: 1176595341}
   - component: {fileID: 1176595342}
+  - component: {fileID: 1176595343}
   m_Layer: 5
   m_Name: EndCountDown
   m_TagString: Untagged
@@ -29356,32 +29356,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1176595341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176595339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 295c7c49f5371564bb3a5a6bd7d55b03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startTime: 5
-  interval: 1
-  countDown:
-  - {fileID: 1203210880}
-  - {fileID: 1780792109}
-  - {fileID: 1403168574}
-  - {fileID: 2120321233}
-  - {fileID: 1825610558}
-  countSound:
-  - {fileID: 8300000, guid: 0c1195e590c6ce34d9d472bb7c3c6e5e, type: 3}
-  - {fileID: 8300000, guid: 0c1195e590c6ce34d9d472bb7c3c6e5e, type: 3}
-  - {fileID: 8300000, guid: 0c1195e590c6ce34d9d472bb7c3c6e5e, type: 3}
-  - {fileID: 8300000, guid: 0c1195e590c6ce34d9d472bb7c3c6e5e, type: 3}
-  - {fileID: 8300000, guid: 0c1195e590c6ce34d9d472bb7c3c6e5e, type: 3}
 --- !u!82 &1176595342
 AudioSource:
   m_ObjectHideFlags: 0
@@ -29478,6 +29452,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1176595343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176595339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31255c74e2601e74786baaeaaaa289a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTime: 5
+  interval: 1
+  countDown:
+  - {fileID: 1203210880}
+  - {fileID: 1780792109}
+  - {fileID: 1403168574}
+  - {fileID: 2120321233}
+  - {fileID: 1825610558}
+  countSound:
+  - {fileID: 8300000, guid: 0c1195e590c6ce34d9d472bb7c3c6e5e, type: 3}
+  - {fileID: 8300000, guid: 0c1195e590c6ce34d9d472bb7c3c6e5e, type: 3}
+  - {fileID: 8300000, guid: 0c1195e590c6ce34d9d472bb7c3c6e5e, type: 3}
+  - {fileID: 8300000, guid: 0c1195e590c6ce34d9d472bb7c3c6e5e, type: 3}
+  - {fileID: 8300000, guid: 0c1195e590c6ce34d9d472bb7c3c6e5e, type: 3}
 --- !u!1 &1182940240
 GameObject:
   m_ObjectHideFlags: 0
@@ -29910,7 +29910,7 @@ MonoBehaviour:
   - {fileID: 324212596}
   win: {fileID: 385297362}
   lose: {fileID: 1468132535}
-  endCountDown: {fileID: 1176595341}
+  endCountDown: {fileID: 1176595343}
 --- !u!114 &1202655891
 MonoBehaviour:
   m_ObjectHideFlags: 0

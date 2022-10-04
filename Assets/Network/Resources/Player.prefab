@@ -276,7 +276,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5848e83a946c1724f89ad8bc984e28a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  status: 0
   myTeam: 1
   modelingPosition: {fileID: 3624872294447591196}
   gameCamera: {fileID: 3624872293831972221}

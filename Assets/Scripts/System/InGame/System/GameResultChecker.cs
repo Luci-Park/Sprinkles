@@ -10,7 +10,7 @@ public class GameResultChecker : MonoBehaviour
     [SerializeField] Image [] gauge;
     [SerializeField] GameObject win;
     [SerializeField] GameObject lose;
-    [SerializeField] EndCountDown endCountDown;
+    [SerializeField] EndCountDownTimer endCountDown;
 
     float gaugeFillTime = 0.3f;
 
