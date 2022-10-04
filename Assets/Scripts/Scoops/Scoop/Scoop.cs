@@ -35,11 +35,7 @@ public class Scoop : MonoBehaviourPun
             {
                 return;
             }
-            if (!player.photonView.IsMine)
-            {
-                player.SuccessfulHit();
-                
-            }
+            if (!player.IsTeam(myTeam)){player.SuccessfulHit();}
             player.GetPlayerScoop().OnHit(myTeam);
             PhotonNetwork.Destroy(gameObject);
         }
