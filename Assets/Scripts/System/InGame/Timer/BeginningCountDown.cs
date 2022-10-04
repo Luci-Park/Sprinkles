@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BeginningCountDown : ImageSoundTimer//, IGameObserver
+public class BeginningCountDown : ImageSoundTimer, IGameObserver
 {
     //---------------------------------------------
     #region override
@@ -29,14 +29,13 @@ public class BeginningCountDown : ImageSoundTimer//, IGameObserver
     
     private void Start()
     {
-        //GameManager.instance.AddObserver(this);
+        GameManager.instance.AddObserver(this);
     }
 
     //---------------------------------------------
     #endregion
     //---------------------------------------------
 
-    /*
     //---------------------------------------------
     #region Observer Functions
     //---------------------------------------------
@@ -56,5 +55,4 @@ public class BeginningCountDown : ImageSoundTimer//, IGameObserver
     //---------------------------------------------
     #endregion
     //---------------------------------------------
-    */
 }

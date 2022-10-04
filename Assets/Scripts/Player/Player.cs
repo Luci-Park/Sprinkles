@@ -3,7 +3,7 @@ using UnityEngine;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 using Photon.Pun;
 
-public enum PlayerReadyState { NotReady, ReadyToStart, ReadyToEnd};
+//public enum PlayerReadyState { NotReady, ReadyToStart, ReadyToEnd};
 
 public class Player : MonoBehaviourPun, IGameObserver
 {
@@ -11,7 +11,7 @@ public class Player : MonoBehaviourPun, IGameObserver
 
     public Team myTeam = Team.mint;
 
-    static string statusKey = "Status";
+    //static string statusKey = "Status";
 
     [SerializeField] Transform modelingPosition;
     //[SerializeField] GameObject shadowModel;
@@ -23,7 +23,7 @@ public class Player : MonoBehaviourPun, IGameObserver
 
     Animator animator;
     GameObject modeling;
-    PlayerReadyState readyState = PlayerReadyState.NotReady;
+    //PlayerReadyState readyState = PlayerReadyState.NotReady;
 
     //---------------------------------------------
     #region Modeling Set Functions
@@ -132,7 +132,7 @@ public class Player : MonoBehaviourPun, IGameObserver
     {
         movement.CompleteStop();
         scoopAction.Reset();
-        SetReadyState(PlayerReadyState.ReadyToEnd);
+        //SetReadyState(PlayerReadyState.ReadyToEnd);
     }
 
     //---------------------------------------------
@@ -253,20 +253,20 @@ public class Player : MonoBehaviourPun, IGameObserver
         {
             photonView.RPC("RPC_GetTeam", RpcTarget.MasterClient);
         }
-        SetReadyState(PlayerReadyState.ReadyToStart);
+        //SetReadyState(PlayerReadyState.ReadyToStart);
     }
     //---------------------------------------------
     #endregion
     //---------------------------------------------
 
-
+    /*
     void SetReadyState(PlayerReadyState ready)
     {
         readyState = ready;
         Hashtable playerState = new Hashtable() { { GameManager.PLAYER_STATE, (int)readyState } };
         PhotonNetwork.LocalPlayer.SetCustomProperties(playerState);
     }
-
+    */
 
     //---------------------------------------------
     #region Observer Functions

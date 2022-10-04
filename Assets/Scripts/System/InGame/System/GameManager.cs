@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     static int[] numberOfTeamMembers = new int[(int)Team.none];
 
     Player player;
-    PlayerReadyState waitingFor = PlayerReadyState.ReadyToStart;
+    //PlayerReadyState waitingFor = PlayerReadyState.ReadyToStart;
 
     List<IGameObserver> observers = new List<IGameObserver>();
 
@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         endCamera.gameObject.SetActive(false);
         NotifyGamePrep();
-        waitingFor = PlayerReadyState.ReadyToStart;
+        //waitingFor = PlayerReadyState.ReadyToStart;
     }
 
     //---------------------------------------------
@@ -159,7 +159,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     //---------------------------------------------
     public void GameDone()
     {
-        waitingFor = PlayerReadyState.ReadyToEnd;
+        //waitingFor = PlayerReadyState.ReadyToEnd;
         NotifyGameDone();
         DestroyAllGameObjects();
         EndCameraWalk();
@@ -199,6 +199,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     #endregion
     //---------------------------------------------
 
+    /*
     public override void OnPlayerPropertiesUpdate(Photon.Realtime.Player targetPlayer, Hashtable state)
     {
         object playerState;
@@ -227,7 +228,7 @@ public class GameManager : MonoBehaviourPunCallbacks
             //startEndTimer();
         }
     }
-
+    */
     //---------------------------------------------
     #region private functions
     //---------------------------------------------
