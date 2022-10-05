@@ -1,6 +1,7 @@
 # Sprinkles(2021.03 ~ 2022.02)
 ![1](https://user-images.githubusercontent.com/97658764/193949440-0babfe89-4303-4729-8e5c-3271dcc4977a.PNG)
 [Youtube Link](https://www.youtube.com/watch?v=5sJY65PJkD0)
+
 [Google PlayStore Link](https://play.google.com/store/apps/details?id=mobile.silverliningstudio.sprinkles)
 
 ## 프로젝트 내용
