@@ -131,7 +131,7 @@ public class Player : MonoBehaviourPun, IGameObserver
     public void GameOver()
     {
         movement.CompleteStop();
-        scoopAction.Reset();
+        //scoopAction.Reset();
         //SetReadyState(PlayerReadyState.ReadyToEnd);
     }
 

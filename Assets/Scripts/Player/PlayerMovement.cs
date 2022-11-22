@@ -113,6 +113,7 @@ public class PlayerMovement : MonoBehaviourPun
 
     public void StartMove()
     {
+        if (currentTile == null||destinationTile== null) return;
         player.GetAnimator().SetBool("IsMoving", true);
         currentTile.ChangeColor(player.myTeam);
         doMove = true;
