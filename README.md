@@ -21,4 +21,4 @@
 ![Communication Diagram](https://user-images.githubusercontent.com/97658764/193948168-be85271b-4fef-4f8d-b09e-248b5d006ac4.png)
 1. 게임씬에 처음 로드 될 때 생성되는 [Player](https://github.com/Luci-Park/TileFlippingGame/tree/master/Assets/Scripts/Player)
 2. Player가 쏘는 [Scoop](https://github.com/Luci-Park/TileFlippingGame/tree/master/Assets/Scripts/Scoops/Scoop)
-3. 이웃 타일의 정보를 알고 이를 토대로 도착지를 지정해주는 [https://github.com/Luci-Park/TileFlippingGame/tree/master/Assets/Scripts/Map/Tile)
+3. 이웃 타일의 정보를 알고 이를 토대로 도착지를 지정해주는 [Tile](https://github.com/Luci-Park/TileFlippingGame/tree/master/Assets/Scripts/Map/Tile)
